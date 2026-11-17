@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#48cae4"/>
+      <stop offset="1" stop-color="#caf0f8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <!-- rainbow -->
+  <g fill="none" stroke-width="44">
+    <path d="M60 760 a452 452 0 0 1 904 0" stroke="#ef476f"/>
+    <path d="M104 760 a408 408 0 0 1 816 0" stroke="#f78c6b"/>
+    <path d="M148 760 a364 364 0 0 1 728 0" stroke="#ffd166"/>
+    <path d="M192 760 a320 320 0 0 1 640 0" stroke="#06d6a0"/>
+    <path d="M236 760 a276 276 0 0 1 552 0" stroke="#118ab2"/>
+    <path d="M280 760 a232 232 0 0 1 464 0" stroke="#7209b7"/>
+  </g>
+  <!-- clouds at rainbow feet -->
+  <g fill="#ffffff">
+    <ellipse cx="90" cy="740" rx="120" ry="60"/><ellipse cx="170" cy="700" rx="80" ry="60"/><ellipse cx="40" cy="700" rx="60" ry="44"/>
+    <ellipse cx="934" cy="740" rx="120" ry="60"/><ellipse cx="854" cy="700" rx="80" ry="60"/><ellipse cx="984" cy="700" rx="60" ry="44"/>
+  </g>
+  <circle cx="130" cy="120" r="70" fill="#ffd60a"/>
+  <!-- meadow -->
+  <path d="M0 760 q260 -40 520 0 t504 0 V1024 H0 Z" fill="#80b918"/>
+  <path d="M0 860 q300 -50 600 -10 t424 0 V1024 H0 Z" fill="#55a630"/>
+  <!-- flowers -->
+  <g>
+    <g transform="translate(120 880)"><g fill="#ff5d8f"><circle cx="0" cy="-22" r="16"/><circle cx="21" cy="-7" r="16"/><circle cx="13" cy="18" r="16"/><circle cx="-13" cy="18" r="16"/><circle cx="-21" cy="-7" r="16"/></g><circle r="12" fill="#ffd60a"/></g>
+    <g transform="translate(300 940)"><g fill="#ffffff"><circle cx="0" cy="-22" r="16"/><circle cx="21" cy="-7" r="16"/><circle cx="13" cy="18" r="16"/><circle cx="-13" cy="18" r="16"/><circle cx="-21" cy="-7" r="16"/></g><circle r="12" fill="#ffd60a"/></g>
+    <g transform="translate(470 860)"><g fill="#9d4edd"><circle cx="0" cy="-22" r="16"/><circle cx="21" cy="-7" r="16"/><circle cx="13" cy="18" r="16"/><circle cx="-13" cy="18" r="16"/><circle cx="-21" cy="-7" r="16"/></g><circle r="12" fill="#ffd60a"/></g>
+    <g transform="translate(640 950)"><g fill="#ff9e00"><circle cx="0" cy="-22" r="16"/><circle cx="21" cy="-7" r="16"/><circle cx="13" cy="18" r="16"/><circle cx="-13" cy="18" r="16"/><circle cx="-21" cy="-7" r="16"/></g><circle r="12" fill="#ffffff"/></g>
+    <g transform="translate(800 870)"><g fill="#ff5d8f"><circle cx="0" cy="-22" r="16"/><circle cx="21" cy="-7" r="16"/><circle cx="13" cy="18" r="16"/><circle cx="-13" cy="18" r="16"/><circle cx="-21" cy="-7" r="16"/></g><circle r="12" fill="#ffd60a"/></g>
+    <g transform="translate(940 950)"><g fill="#ffffff"><circle cx="0" cy="-22" r="16"/><circle cx="21" cy="-7" r="16"/><circle cx="13" cy="18" r="16"/><circle cx="-13" cy="18" r="16"/><circle cx="-21" cy="-7" r="16"/></g><circle r="12" fill="#ff9e00"/></g>
+  </g>
+  <!-- butterfly -->
+  <g transform="translate(540 560)">
+    <ellipse cx="-50" cy="-30" rx="56" ry="44" fill="#f15bb5"/><ellipse cx="50" cy="-30" rx="56" ry="44" fill="#f15bb5"/>
+    <ellipse cx="-40" cy="36" rx="38" ry="30" fill="#fee440"/><ellipse cx="40" cy="36" rx="38" ry="30" fill="#fee440"/>
+    <rect x="-8" y="-60" width="16" height="120" rx="8" fill="#22223b"/>
+    <path d="M-4 -60 q-20 -40 -40 -40 M4 -60 q20 -40 40 -40" stroke="#22223b" stroke-width="5" fill="none"/>
+  </g>
+</svg>

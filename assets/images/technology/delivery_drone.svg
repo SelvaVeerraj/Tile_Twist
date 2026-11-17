@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb5a7"/>
+      <stop offset="1" stop-color="#fcd5ce"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="840" cy="180" r="90" fill="#fff3b0"/>
+  <g fill="#ffffff"><ellipse cx="200" cy="130" rx="120" ry="36"/><ellipse cx="250" cy="106" rx="70" ry="36"/><ellipse cx="640" cy="300" rx="90" ry="28"/></g>
+  <!-- suburb -->
+  <path d="M0 720 q260 -40 520 0 t504 0 V1024 H0 Z" fill="#95d5b2"/>
+  <g>
+    <rect x="60" y="600" width="200" height="160" fill="#f8edeb"/><polygon points="40,610 160,520 280,610" fill="#e76f51"/>
+    <rect x="130" y="680" width="50" height="80" fill="#6d597a"/><rect x="80" y="630" width="40" height="40" fill="#8ecae6"/><rect x="200" y="630" width="40" height="40" fill="#8ecae6"/>
+    <rect x="760" y="580" width="220" height="180" fill="#fefae0"/><polygon points="740,590 870,490 1000,590" fill="#2a9d8f"/>
+    <rect x="840" y="670" width="54" height="90" fill="#9c6644"/><rect x="780" y="620" width="44" height="44" fill="#8ecae6"/><rect x="916" y="620" width="44" height="44" fill="#8ecae6"/>
+  </g>
+  <!-- path & landing pad -->
+  <path d="M440 1024 q20 -120 60 -200 h40 q-20 80 0 200 Z" fill="#e9c46a"/>
+  <ellipse cx="520" cy="860" rx="150" ry="44" fill="#adb5bd"/>
+  <ellipse cx="520" cy="860" rx="110" ry="30" fill="none" stroke="#ffffff" stroke-width="8"/>
+  <path d="M500 840 v40 M540 840 v40 M500 860 h40" stroke="#ffffff" stroke-width="8"/>
+  <!-- bushes -->
+  <g fill="#52b788"><circle cx="300" cy="760" r="50"/><circle cx="360" cy="780" r="36"/><circle cx="700" cy="770" r="44"/></g>
+  <!-- drone -->
+  <g transform="translate(512 380)">
+    <!-- arms -->
+    <g stroke="#495057" stroke-width="20" stroke-linecap="round"><line x1="-220" y1="-60" x2="220" y2="-60"/></g>
+    <rect x="-232" y="-90" width="24" height="40" fill="#495057"/><rect x="208" y="-90" width="24" height="40" fill="#495057"/>
+    <!-- rotors -->
+    <ellipse cx="-220" cy="-96" rx="120" ry="14" fill="#adb5bd" opacity="0.8"/>
+    <ellipse cx="220" cy="-96" rx="120" ry="14" fill="#adb5bd" opacity="0.8"/>
+    <circle cx="-220" cy="-96" r="10" fill="#22223b"/><circle cx="220" cy="-96" r="10" fill="#22223b"/>
+    <!-- body -->
+    <rect x="-120" y="-90" width="240" height="90" rx="40" fill="#3a86ff"/>
+    <rect x="-80" y="-74" width="160" height="40" rx="20" fill="#caf0f8"/>
+    <circle cx="-30" cy="-54" r="10" fill="#22223b"/><circle cx="30" cy="-54" r="10" fill="#22223b"/>
+    <circle cx="0" cy="-10" r="8" fill="#06d6a0"/>
+    <!-- legs & cable -->
+    <path d="M-80 0 l-30 40 M80 0 l30 40" stroke="#495057" stroke-width="10" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="0" y2="110" stroke="#495057" stroke-width="6"/>
+    <!-- parcel -->
+    <rect x="-80" y="110" width="160" height="130" rx="8" fill="#d4a373"/>
+    <rect x="-12" y="110" width="24" height="130" fill="#ef476f"/>
+    <rect x="-80" y="164" width="160" height="22" fill="#ef476f"/>
+    <path d="M0 110 q-40 -40 -60 -10 q20 20 60 10 q40 -40 60 -10 q-20 20 -60 10 Z" fill="#ef476f"/>
+  </g>
+  <!-- motion lines -->
+  <g stroke="#ffffff" stroke-width="8" stroke-linecap="round"><line x1="120" y1="360" x2="220" y2="360"/><line x1="140" y1="420" x2="240" y2="420"/><line x1="100" y1="480" x2="190" y2="480"/></g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7209b7"/>
+      <stop offset="1" stop-color="#f72585"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="820" cy="180" r="80" fill="#fff3b0"/>
+  <g fill="#ffffff"><circle cx="80" cy="80" r="4"/><circle cx="200" cy="140" r="3"/><circle cx="340" cy="60" r="4"/><circle cx="620" cy="90" r="3"/><circle cx="960" cy="320" r="3"/></g>
+  <!-- hill -->
+  <path d="M0 820 q260 -260 520 -260 q260 0 504 260 V1024 H0 Z" fill="#2d6a4f"/>
+  <path d="M0 900 q260 -120 520 -100 t504 80 V1024 H0 Z" fill="#40916c"/>
+  <!-- path to gate -->
+  <path d="M470 1024 q30 -140 20 -330 h40 q-10 190 40 330 Z" fill="#e9c46a"/>
+  <!-- castle walls -->
+  <rect x="300" y="460" width="420" height="230" fill="#adb5bd"/>
+  <g fill="#adb5bd"><rect x="300" y="430" width="40" height="40"/><rect x="370" y="430" width="40" height="40"/><rect x="440" y="430" width="40" height="40"/><rect x="540" y="430" width="40" height="40"/><rect x="610" y="430" width="40" height="40"/><rect x="680" y="430" width="40" height="40"/></g>
+  <!-- towers -->
+  <rect x="230" y="340" width="110" height="350" fill="#ced4da"/>
+  <rect x="684" y="340" width="110" height="350" fill="#ced4da"/>
+  <polygon points="220,340 285,200 350,340" fill="#3a0ca3"/>
+  <polygon points="674,340 739,200 804,340" fill="#3a0ca3"/>
+  <!-- keep -->
+  <rect x="430" y="280" width="164" height="410" fill="#dee2e6"/>
+  <polygon points="420,280 512,120 604,280" fill="#4361ee"/>
+  <!-- flags -->
+  <line x1="285" y1="200" x2="285" y2="140" stroke="#495057" stroke-width="6"/><polygon points="285,140 330,155 285,170" fill="#ffd60a"/>
+  <line x1="739" y1="200" x2="739" y2="140" stroke="#495057" stroke-width="6"/><polygon points="739,140 784,155 739,170" fill="#ffd60a"/>
+  <line x1="512" y1="120" x2="512" y2="50" stroke="#495057" stroke-width="6"/><polygon points="512,50 572,68 512,86" fill="#ef233c"/>
+  <!-- windows -->
+  <g fill="#ffd166">
+    <rect x="270" y="400" width="30" height="50" rx="15"/><rect x="724" y="400" width="30" height="50" rx="15"/>
+    <rect x="490" y="330" width="44" height="64" rx="22"/>
+    <rect x="270" y="520" width="30" height="50" rx="15"/><rect x="724" y="520" width="30" height="50" rx="15"/>
+    <rect x="380" y="520" width="26" height="40" rx="13"/><rect x="618" y="520" width="26" height="40" rx="13"/>
+  </g>
+  <!-- gate -->
+  <path d="M460 690 v-110 a52 52 0 0 1 104 0 v110 Z" fill="#5e3023"/>
+  <g stroke="#3d2914" stroke-width="6"><line x1="486" y1="560" x2="486" y2="690"/><line x1="512" y1="550" x2="512" y2="690"/><line x1="538" y1="560" x2="538" y2="690"/></g>
+  <!-- bushes -->
+  <g fill="#1b4332"><circle cx="160" cy="800" r="60"/><circle cx="240" cy="780" r="44"/><circle cx="860" cy="800" r="60"/><circle cx="780" cy="780" r="44"/></g>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff9f1c"/>
+      <stop offset="1" stop-color="#ffe8d6"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2ec4b6"/>
+      <stop offset="1" stop-color="#014f86"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="220" cy="560" r="150" fill="#ffbf69"/>
+  <g fill="#ffffff" opacity="0.85"><ellipse cx="780" cy="140" rx="130" ry="40"/><ellipse cx="840" cy="112" rx="70" ry="40"/><ellipse cx="300" cy="220" rx="90" ry="28"/></g>
+  <path d="M600 200 q16 -16 32 0 q16 -16 32 0 M680 260 q12 -12 24 0 q12 -12 24 0" stroke="#5c3d2e" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- sea -->
+  <rect y="600" width="1024" height="424" fill="url(#sea)"/>
+  <g fill="#ffbf69" opacity="0.5"><rect x="140" y="620" width="160" height="8"/><rect x="170" y="650" width="100" height="8"/><rect x="190" y="680" width="60" height="8"/></g>
+  <!-- waves -->
+  <path d="M0 840 q64 -40 128 0 t128 0 t128 0 t128 0 t128 0 t128 0 t128 0 t128 0 V1024 H0 Z" fill="#0a9396"/>
+  <path d="M0 920 q64 -40 128 0 t128 0 t128 0 t128 0 t128 0 t128 0 t128 0 t128 0 V1024 H0 Z" fill="#005f73"/>
+  <g fill="none" stroke="#e0fbfc" stroke-width="8" stroke-linecap="round"><path d="M40 830 q24 -20 48 0"/><path d="M420 830 q24 -20 48 0"/><path d="M820 830 q24 -20 48 0"/></g>
+  <!-- boat hull -->
+  <path d="M300 760 h460 l-70 90 h-320 Z" fill="#e63946"/>
+  <rect x="300" y="750" width="460" height="18" fill="#fefae0"/>
+  <g fill="#fefae0"><circle cx="420" cy="800" r="12"/><circle cx="500" cy="800" r="12"/><circle cx="580" cy="800" r="12"/></g>
+  <!-- mast & sails -->
+  <rect x="520" y="200" width="16" height="560" fill="#6f4518"/>
+  <polygon points="540,220 540,720 760,720" fill="#ffffff"/>
+  <polygon points="516,250 516,720 330,720" fill="#fefae0"/>
+  <path d="M516 400 L392 590 L516 590 Z" fill="#118ab2"/>
+  <path d="M540 470 L650 610 L540 610 Z" fill="#ffd166"/>
+  <polygon points="536,200 600,220 536,240" fill="#e63946"/>
+  <!-- dolphin -->
+  <g transform="translate(860 870)">
+    <path d="M-80 20 q40 -90 140 -60 q-20 20 -10 40 q-60 -20 -130 20 Z" fill="#8d99ae"/>
+    <polygon points="0,-36 20,-70 30,-34" fill="#8d99ae"/>
+    <circle cx="44" cy="-30" r="5" fill="#22223b"/>
+  </g>
+  <!-- lighthouse island -->
+  <ellipse cx="80" cy="610" rx="110" ry="24" fill="#6c757d"/>
+  <rect x="60" y="500" width="34" height="110" fill="#ffffff"/>
+  <rect x="60" y="530" width="34" height="20" fill="#e63946"/><rect x="60" y="570" width="34" height="20" fill="#e63946"/>
+  <polygon points="54,500 100,500 77,476" fill="#e63946"/>
+</svg>

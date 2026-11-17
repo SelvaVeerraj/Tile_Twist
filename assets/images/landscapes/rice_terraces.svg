@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffcad4"/>
+      <stop offset="1" stop-color="#fff1e6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="220" cy="190" r="90" fill="#ff9e00"/>
+  <!-- misty mountains -->
+  <polygon points="0,420 180,260 360,400 560,220 760,380 920,280 1024,340 1024,520 0,520" fill="#cdb4db"/>
+  <polygon points="0,500 220,360 420,480 640,340 860,460 1024,400 1024,600 0,600" fill="#a2d2ff" opacity="0.8"/>
+  <!-- terraces -->
+  <path d="M0 560 q260 -50 520 -10 t504 -20 V1024 H0 Z" fill="#d9ed92"/>
+  <path d="M0 640 q260 -50 520 -10 t504 -20 V1024 H0 Z" fill="#b5e48c"/>
+  <path d="M0 720 q260 -50 520 -10 t504 -20 V1024 H0 Z" fill="#99d98c"/>
+  <path d="M0 800 q260 -50 520 -10 t504 -20 V1024 H0 Z" fill="#76c893"/>
+  <path d="M0 880 q260 -50 520 -10 t504 -20 V1024 H0 Z" fill="#52b69a"/>
+  <path d="M0 960 q260 -50 520 -10 t504 -20 V1024 H0 Z" fill="#34a0a4"/>
+  <!-- terrace edges (water shine) -->
+  <g fill="none" stroke="#ffffff" stroke-width="6" opacity="0.7">
+    <path d="M0 560 q260 -50 520 -10 t504 -20"/>
+    <path d="M0 640 q260 -50 520 -10 t504 -20"/>
+    <path d="M0 720 q260 -50 520 -10 t504 -20"/>
+    <path d="M0 800 q260 -50 520 -10 t504 -20"/>
+    <path d="M0 880 q260 -50 520 -10 t504 -20"/>
+    <path d="M0 960 q260 -50 520 -10 t504 -20"/>
+  </g>
+  <!-- rice plant tufts -->
+  <g stroke="#1a759f" stroke-width="5" stroke-linecap="round">
+    <path d="M100 940 l-8 -26 M100 940 l0 -30 M100 940 l8 -26"/>
+    <path d="M300 860 l-8 -26 M300 860 l0 -30 M300 860 l8 -26"/>
+    <path d="M700 780 l-8 -26 M700 780 l0 -30 M700 780 l8 -26"/>
+    <path d="M880 920 l-8 -26 M880 920 l0 -30 M880 920 l8 -26"/>
+    <path d="M520 700 l-8 -26 M520 700 l0 -30 M520 700 l8 -26"/>
+  </g>
+  <!-- farmer with hat -->
+  <g transform="translate(620 830)">
+    <rect x="-16" y="0" width="32" height="70" rx="12" fill="#e76f51"/>
+    <circle cx="0" cy="-14" r="18" fill="#f4a261"/>
+    <polygon points="-56,-16 0,-56 56,-16" fill="#ffd166"/>
+    <line x1="16" y1="20" x2="50" y2="60" stroke="#f4a261" stroke-width="10" stroke-linecap="round"/>
+  </g>
+  <!-- hut -->
+  <g transform="translate(160 470)">
+    <rect x="0" y="40" width="120" height="70" fill="#9c6644"/>
+    <polygon points="-30,50 60,-30 150,50" fill="#e9c46a"/>
+    <rect x="44" y="64" width="32" height="46" fill="#5e3023"/>
+  </g>
+  <!-- birds -->
+  <path d="M620 140 q16 -16 32 0 q16 -16 32 0 M720 200 q12 -12 24 0 q12 -12 24 0" stroke="#6d597a" stroke-width="6" fill="none" stroke-linecap="round"/>
+</svg>

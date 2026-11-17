@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#90e0ef"/>
+      <stop offset="1" stop-color="#fefae0"/>
+    </linearGradient>
+    <linearGradient id="fall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#caf0f8"/>
+      <stop offset="1" stop-color="#48cae4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <g fill="#ffffff"><ellipse cx="520" cy="110" rx="140" ry="40"/><ellipse cx="580" cy="80" rx="80" ry="40"/></g>
+  <!-- cliffs left -->
+  <polygon points="0,180 220,200 340,300 380,1024 0,1024" fill="#bc6c25"/>
+  <polygon points="0,320 260,330 330,420 360,1024 0,1024" fill="#9c4a1a"/>
+  <polygon points="0,560 300,560 350,640 370,1024 0,1024" fill="#7f3b10"/>
+  <!-- cliffs right -->
+  <polygon points="1024,160 760,190 650,300 620,1024 1024,1024" fill="#bc6c25"/>
+  <polygon points="1024,340 740,350 660,440 640,1024 1024,1024" fill="#9c4a1a"/>
+  <polygon points="1024,600 700,600 650,680 630,1024 1024,1024" fill="#7f3b10"/>
+  <!-- greenery on top -->
+  <g fill="#52b788"><ellipse cx="120" cy="190" rx="140" ry="40"/><ellipse cx="880" cy="170" rx="160" ry="40"/></g>
+  <g fill="#2d6a4f"><circle cx="60" cy="160" r="50"/><circle cx="150" cy="150" r="40"/><circle cx="940" cy="140" r="50"/><circle cx="840" cy="140" r="40"/></g>
+  <!-- waterfall -->
+  <polygon points="380,260 640,260 660,820 360,820" fill="url(#fall)"/>
+  <g stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.8">
+    <line x1="420" y1="300" x2="410" y2="760"/><line x1="480" y1="280" x2="476" y2="700"/><line x1="550" y1="300" x2="556" y2="780"/><line x1="610" y1="290" x2="620" y2="720"/>
+  </g>
+  <!-- rainbow mist -->
+  <path d="M300 820 a210 150 0 0 1 420 0" fill="none" stroke="#ef476f" stroke-width="10" opacity="0.6"/>
+  <path d="M316 820 a194 136 0 0 1 388 0" fill="none" stroke="#ffd166" stroke-width="10" opacity="0.6"/>
+  <path d="M332 820 a178 122 0 0 1 356 0" fill="none" stroke="#06d6a0" stroke-width="10" opacity="0.6"/>
+  <!-- pool -->
+  <ellipse cx="512" cy="900" rx="420" ry="120" fill="#0096c7"/>
+  <g fill="#ffffff"><ellipse cx="400" cy="830" rx="70" ry="30"/><ellipse cx="520" cy="820" rx="90" ry="36"/><ellipse cx="640" cy="834" rx="70" ry="28"/></g>
+  <g stroke="#90e0ef" stroke-width="7" stroke-linecap="round"><line x1="200" y1="920" x2="320" y2="920"/><line x1="700" y1="940" x2="840" y2="940"/><line x1="440" y1="980" x2="580" y2="980"/></g>
+  <!-- rocks -->
+  <g fill="#6c757d"><ellipse cx="150" cy="960" rx="110" ry="60"/><ellipse cx="900" cy="980" rx="120" ry="60"/></g>
+  <g fill="#adb5bd"><ellipse cx="130" cy="940" rx="60" ry="24"/><ellipse cx="880" cy="960" rx="60" ry="24"/></g>
+  <!-- birds -->
+  <path d="M180 360 q16 -16 32 0 q16 -16 32 0 M780 420 q16 -16 32 0 q16 -16 32 0" stroke="#22223b" stroke-width="6" fill="none" stroke-linecap="round"/>
+</svg>

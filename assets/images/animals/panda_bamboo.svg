@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d8f3dc"/>
+      <stop offset="1" stop-color="#95d5b2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- bamboo stalks -->
+  <g fill="#40916c">
+    <rect x="60" y="0" width="44" height="1024"/>
+    <rect x="170" y="0" width="34" height="1024"/>
+    <rect x="840" y="0" width="44" height="1024"/>
+    <rect x="940" y="0" width="34" height="1024"/>
+  </g>
+  <g fill="#2d6a4f">
+    <rect x="56" y="180" width="52" height="12"/><rect x="56" y="460" width="52" height="12"/><rect x="56" y="760" width="52" height="12"/>
+    <rect x="166" y="300" width="42" height="10"/><rect x="166" y="620" width="42" height="10"/>
+    <rect x="836" y="240" width="52" height="12"/><rect x="836" y="560" width="52" height="12"/><rect x="836" y="860" width="52" height="12"/>
+    <rect x="936" y="120" width="42" height="10"/><rect x="936" y="420" width="42" height="10"/>
+  </g>
+  <g fill="#52b788">
+    <path d="M104 190 q80 -40 130 -10 q-70 30 -130 10 Z"/>
+    <path d="M104 470 q90 -20 120 20 q-80 10 -120 -20 Z"/>
+    <path d="M836 250 q-80 -40 -130 -10 q70 30 130 10 Z"/>
+    <path d="M836 570 q-90 -20 -120 20 q80 10 120 -20 Z"/>
+    <path d="M204 630 q60 -50 110 -30 q-50 40 -110 30 Z"/>
+  </g>
+  <!-- ground -->
+  <ellipse cx="512" cy="1000" rx="560" ry="120" fill="#74c69d"/>
+  <!-- body -->
+  <ellipse cx="512" cy="790" rx="260" ry="220" fill="#ffffff"/>
+  <ellipse cx="330" cy="860" rx="90" ry="110" fill="#22223b"/>
+  <ellipse cx="694" cy="860" rx="90" ry="110" fill="#22223b"/>
+  <!-- arms holding bamboo -->
+  <rect x="490" y="520" width="40" height="420" fill="#95d5b2" transform="rotate(20 510 730)"/>
+  <ellipse cx="400" cy="700" rx="70" ry="100" fill="#22223b" transform="rotate(-30 400 700)"/>
+  <ellipse cx="624" cy="700" rx="70" ry="100" fill="#22223b" transform="rotate(30 624 700)"/>
+  <!-- head -->
+  <circle cx="330" cy="280" r="80" fill="#22223b"/>
+  <circle cx="694" cy="280" r="80" fill="#22223b"/>
+  <ellipse cx="512" cy="430" rx="250" ry="210" fill="#ffffff"/>
+  <ellipse cx="420" cy="420" rx="60" ry="80" fill="#22223b" transform="rotate(25 420 420)"/>
+  <ellipse cx="604" cy="420" rx="60" ry="80" fill="#22223b" transform="rotate(-25 604 420)"/>
+  <circle cx="428" cy="410" r="22" fill="#ffffff"/><circle cx="596" cy="410" r="22" fill="#ffffff"/>
+  <circle cx="432" cy="414" r="12" fill="#22223b"/><circle cx="592" cy="414" r="12" fill="#22223b"/>
+  <ellipse cx="512" cy="500" rx="34" ry="24" fill="#22223b"/>
+  <path d="M512 524 q-30 40 -60 20 M512 524 q30 40 60 20" stroke="#22223b" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <circle cx="370" cy="510" r="28" fill="#ffb4c2"/><circle cx="654" cy="510" r="28" fill="#ffb4c2"/>
+</svg>

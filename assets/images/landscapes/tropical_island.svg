@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00b4d8"/>
+      <stop offset="1" stop-color="#ade8f4"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#48cae4"/>
+      <stop offset="1" stop-color="#0077b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="840" cy="160" r="90" fill="#ffd60a"/>
+  <g fill="#ffffff"><ellipse cx="200" cy="160" rx="120" ry="40"/><ellipse cx="260" cy="130" rx="70" ry="40"/><ellipse cx="600" cy="100" rx="90" ry="30"/></g>
+  <!-- gulls -->
+  <path d="M480 220 q20 -20 40 0 q20 -20 40 0 M380 280 q14 -14 28 0 q14 -14 28 0" stroke="#22223b" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- sea -->
+  <rect y="560" width="1024" height="464" fill="url(#sea)"/>
+  <g stroke="#caf0f8" stroke-width="7" stroke-linecap="round"><line x1="60" y1="640" x2="200" y2="640"/><line x1="760" y1="620" x2="920" y2="620"/><line x1="80" y1="900" x2="240" y2="900"/><line x1="700" y1="960" x2="900" y2="960"/><line x1="400" y1="990" x2="540" y2="990"/></g>
+  <!-- island -->
+  <ellipse cx="520" cy="740" rx="330" ry="100" fill="#ffe8a3"/>
+  <ellipse cx="520" cy="760" rx="380" ry="110" fill="#90e0ef" opacity="0.35"/>
+  <ellipse cx="520" cy="730" rx="300" ry="80" fill="#ffd59e"/>
+  <!-- palm trunk -->
+  <path d="M500 720 q-20 -180 80 -360" stroke="#8d5524" stroke-width="40" fill="none" stroke-linecap="round"/>
+  <g stroke="#6f4518" stroke-width="6"><line x1="486" y1="660" x2="520" y2="664"/><line x1="490" y1="600" x2="526" y2="606"/><line x1="502" y1="540" x2="538" y2="548"/><line x1="520" y1="480" x2="556" y2="490"/><line x1="544" y1="420" x2="578" y2="432"/></g>
+  <!-- fronds -->
+  <g fill="#2d6a4f">
+    <path d="M580 360 q-160 -60 -260 40 q140 -40 260 -40 Z"/>
+    <path d="M580 360 q160 -60 260 50 q-140 -50 -260 -50 Z"/>
+  </g>
+  <g fill="#40916c">
+    <path d="M580 360 q-120 -140 -240 -110 q140 20 240 110 Z"/>
+    <path d="M580 360 q100 -160 230 -130 q-140 30 -230 130 Z"/>
+    <path d="M580 360 q-40 120 -160 180 q80 -100 160 -180 Z"/>
+    <path d="M580 360 q60 110 180 150 q-90 -80 -180 -150 Z"/>
+  </g>
+  <g fill="#6f4518"><circle cx="566" cy="376" r="18"/><circle cx="596" cy="380" r="18"/><circle cx="580" cy="400" r="18"/></g>
+  <!-- beach umbrella & ball -->
+  <path d="M300 730 l20 -150" stroke="#495057" stroke-width="8"/>
+  <path d="M220 600 q100 -90 200 -10 Z" fill="#ef476f"/>
+  <path d="M290 580 q30 -50 70 -40 l-10 50 Z" fill="#ffffff"/>
+  <circle cx="720" cy="720" r="34" fill="#ffffff"/>
+  <path d="M686 720 a34 34 0 0 1 68 0 Z" fill="#ef476f"/>
+  <path d="M720 686 v68" stroke="#118ab2" stroke-width="10"/>
+  <!-- sailboat -->
+  <polygon points="140,600 220,600 200,620 160,620" fill="#9c6644"/>
+  <polygon points="180,600 180,500 230,590" fill="#ffffff"/>
+</svg>

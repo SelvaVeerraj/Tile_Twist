@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b5876"/>
+      <stop offset="0.6" stop-color="#4e8f6f"/>
+      <stop offset="1" stop-color="#2d5a3a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff59d"/>
+      <stop offset="1" stop-color="#fff59d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- light rays -->
+  <polygon points="380,0 470,0 700,760 560,760" fill="#ffffff" opacity="0.08"/>
+  <polygon points="620,0 680,0 900,700 800,700" fill="#ffffff" opacity="0.06"/>
+  <!-- distant trees -->
+  <g fill="#36705a">
+    <rect x="60" y="0" width="60" height="760"/><rect x="300" y="0" width="44" height="760"/>
+    <rect x="560" y="0" width="52" height="760"/><rect x="860" y="0" width="58" height="760"/>
+  </g>
+  <!-- near trunks -->
+  <g fill="#5b3b24">
+    <rect x="150" y="0" width="90" height="820"/><rect x="700" y="0" width="110" height="840"/>
+  </g>
+  <g stroke="#3f2816" stroke-width="6" fill="none">
+    <path d="M170 100 q10 60 0 120 M200 300 q-8 80 4 160 M180 560 q12 60 0 120"/>
+    <path d="M730 140 q12 70 0 140 M770 380 q-10 80 4 160 M740 620 q12 60 0 120"/>
+  </g>
+  <!-- canopy -->
+  <g fill="#1f4d36">
+    <circle cx="100" cy="40" r="140"/><circle cx="330" cy="0" r="160"/><circle cx="560" cy="30" r="130"/>
+    <circle cx="780" cy="0" r="170"/><circle cx="990" cy="40" r="140"/>
+  </g>
+  <!-- ground -->
+  <path d="M0 760 Q260 700 520 760 T1024 740 L1024 1024 L0 1024 Z" fill="#3b6e2c"/>
+  <path d="M0 880 Q300 820 600 880 T1024 870 L1024 1024 L0 1024 Z" fill="#2c5520"/>
+  <!-- ferns -->
+  <g stroke="#6abf4b" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M40 900 q40 -90 120 -120"/><path d="M70 860 l-20 -20 M90 835 l-14 -26 M115 812 l-6 -26"/>
+    <path d="M960 880 q-40 -90 -120 -120"/><path d="M930 840 l20 -20 M910 815 l14 -26 M885 795 l6 -26"/>
+  </g>
+  <!-- mushrooms -->
+  <g>
+    <rect x="390" y="780" width="70" height="140" rx="22" fill="#f5ead7"/>
+    <path d="M300 800 Q425 620 550 800 Z" fill="#e63946"/>
+    <g fill="#ffffff"><circle cx="380" cy="740" r="18"/><circle cx="440" cy="700" r="14"/><circle cx="490" cy="760" r="16"/><circle cx="340" cy="785" r="10"/></g>
+    <rect x="590" y="840" width="40" height="80" rx="14" fill="#f5ead7"/>
+    <path d="M540 850 Q610 740 680 850 Z" fill="#ff8c42"/>
+    <g fill="#ffffff"><circle cx="590" cy="815" r="9"/><circle cx="628" cy="795" r="8"/><circle cx="655" cy="830" r="8"/></g>
+    <rect x="250" y="880" width="30" height="60" rx="10" fill="#f5ead7"/>
+    <path d="M215 890 Q265 815 315 890 Z" fill="#e63946"/>
+    <g fill="#ffffff"><circle cx="250" cy="865" r="7"/><circle cx="280" cy="855" r="6"/></g>
+    <rect x="820" y="890" width="34" height="70" rx="12" fill="#f5ead7"/>
+    <path d="M780 900 Q837 820 894 900 Z" fill="#9b5de5"/>
+    <g fill="#ffffff"><circle cx="820" cy="878" r="7"/><circle cx="858" cy="868" r="7"/></g>
+  </g>
+  <!-- snail -->
+  <g transform="translate(130 980)">
+    <path d="M-30 0 q60 -6 90 0 q10 -20 0 -20" fill="#c9a26b"/>
+    <circle cx="10" cy="-26" r="28" fill="#b5651d"/>
+    <path d="M10 -26 m-14 0 a14 14 0 1 1 28 0 a8 8 0 1 1 -16 0" fill="none" stroke="#7a3e10" stroke-width="5"/>
+  </g>
+  <!-- fireflies -->
+  <g>
+    <circle cx="520" cy="420" r="40" fill="url(#glow)"/><circle cx="520" cy="420" r="6" fill="#fff59d"/>
+    <circle cx="300" cy="560" r="34" fill="url(#glow)"/><circle cx="300" cy="560" r="5" fill="#fff59d"/>
+    <circle cx="880" cy="500" r="40" fill="url(#glow)"/><circle cx="880" cy="500" r="6" fill="#fff59d"/>
+    <circle cx="640" cy="620" r="30" fill="url(#glow)"/><circle cx="640" cy="620" r="5" fill="#fff59d"/>
+    <circle cx="90" cy="420" r="30" fill="url(#glow)"/><circle cx="90" cy="420" r="5" fill="#fff59d"/>
+  </g>
+</svg>

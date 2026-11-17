@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff3b0"/>
+      <stop offset="1" stop-color="#ffb703"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- honeycomb -->
+  <g fill="#fb8500" stroke="#e76f00" stroke-width="8" opacity="0.85">
+    <polygon points="60,40 120,40 150,92 120,144 60,144 30,92"/>
+    <polygon points="150,92 210,92 240,144 210,196 150,196 120,144"/>
+    <polygon points="60,144 120,144 150,196 120,248 60,248 30,196"/>
+    <polygon points="870,760 930,760 960,812 930,864 870,864 840,812"/>
+    <polygon points="780,812 840,812 870,864 840,916 780,916 750,864"/>
+    <polygon points="870,864 930,864 960,916 930,968 870,968 840,916"/>
+    <polygon points="960,812 1020,812 1050,864 1020,916 960,916 930,864"/>
+  </g>
+  <g fill="#ffd166"><polygon points="70,60 110,60 130,92 110,124 70,124 50,92"/><polygon points="880,780 920,780 940,812 920,844 880,844 860,812"/></g>
+  <!-- flowers -->
+  <g transform="translate(180 820)">
+    <g fill="#ffffff"><circle cx="0" cy="-60" r="44"/><circle cx="57" cy="-18" r="44"/><circle cx="35" cy="48" r="44"/><circle cx="-35" cy="48" r="44"/><circle cx="-57" cy="-18" r="44"/></g>
+    <circle r="38" fill="#ffb703"/>
+  </g>
+  <g transform="translate(870 200) scale(0.8)">
+    <g fill="#ff8fab"><circle cx="0" cy="-60" r="44"/><circle cx="57" cy="-18" r="44"/><circle cx="35" cy="48" r="44"/><circle cx="-35" cy="48" r="44"/><circle cx="-57" cy="-18" r="44"/></g>
+    <circle r="38" fill="#fff3b0"/>
+  </g>
+  <!-- flight path -->
+  <path d="M260 760 q120 -40 80 -150 q-40 -90 60 -110" stroke="#6d4c41" stroke-width="8" stroke-dasharray="20 18" fill="none" stroke-linecap="round"/>
+  <!-- wings -->
+  <ellipse cx="430" cy="300" rx="120" ry="170" fill="#caf0f8" opacity="0.9" transform="rotate(-30 430 300)"/>
+  <ellipse cx="640" cy="300" rx="120" ry="170" fill="#caf0f8" opacity="0.9" transform="rotate(30 640 300)"/>
+  <!-- body -->
+  <ellipse cx="560" cy="540" rx="250" ry="180" fill="#ffd60a"/>
+  <path d="M440 380 q-40 160 0 320 L520 712 q-40 -170 0 -350 Z" fill="#22223b"/>
+  <path d="M600 365 q-40 175 0 350 L680 700 q-40 -160 0 -320 Z" fill="#22223b"/>
+  <polygon points="806,520 880,540 806,560" fill="#22223b"/>
+  <!-- head -->
+  <circle cx="330" cy="520" r="130" fill="#ffd60a"/>
+  <circle cx="290" cy="490" r="30" fill="#22223b"/><circle cx="380" cy="490" r="30" fill="#22223b"/>
+  <circle cx="300" cy="478" r="10" fill="#fff"/><circle cx="390" cy="478" r="10" fill="#fff"/>
+  <path d="M290 570 q45 36 90 0" stroke="#22223b" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="250" cy="560" r="20" fill="#ff8fab"/><circle cx="420" cy="560" r="20" fill="#ff8fab"/>
+  <path d="M290 400 q-30 -80 -80 -100 M370 400 q20 -80 70 -110" stroke="#22223b" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="210" cy="300" r="18" fill="#22223b"/><circle cx="440" cy="290" r="18" fill="#22223b"/>
+</svg>

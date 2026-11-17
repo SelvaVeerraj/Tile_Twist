@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5ab0f5"/>
+      <stop offset="1" stop-color="#d6f0ff"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a9df4"/>
+      <stop offset="1" stop-color="#0b4f8a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="600" fill="url(#sky)"/>
+  <ellipse cx="180" cy="160" rx="110" ry="36" fill="#ffffff"/>
+  <ellipse cx="240" cy="136" rx="70" ry="44" fill="#ffffff"/>
+  <ellipse cx="760" cy="110" rx="90" ry="28" fill="#ffffff"/>
+  <g stroke="#2b3a55" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M420 200 q16 -14 32 0 q16 -14 32 0"/><path d="M500 260 q12 -10 24 0 q12 -10 24 0"/><path d="M880 230 q14 -12 28 0 q14 -12 28 0"/>
+  </g>
+  <!-- light beam -->
+  <polygon points="690,250 1024,150 1024,330" fill="#fff59d" opacity="0.5"/>
+  <rect y="600" width="1024" height="424" fill="url(#sea)"/>
+  <!-- far sailboat -->
+  <polygon points="200,590 260,590 250,604 210,604" fill="#7a4a2b"/>
+  <polygon points="228,520 228,586 270,586" fill="#ffffff"/>
+  <polygon points="224,530 224,586 196,586" fill="#ffd166"/>
+  <!-- cliff -->
+  <path d="M520 1024 L520 720 Q560 640 640 610 L820 560 Q960 540 1024 580 L1024 1024 Z" fill="#7d6b5a"/>
+  <path d="M600 640 L820 560 Q960 540 1024 580 L1024 600 Q900 570 820 590 L640 650 Z" fill="#6aa84f"/>
+  <g fill="#5e4d3e"><polygon points="560,780 620,760 600,820"/><polygon points="700,860 760,830 740,900"/><polygon points="880,760 940,740 930,800"/></g>
+  <!-- lighthouse -->
+  <polygon points="660,600 740,600 726,300 674,300" fill="#ffffff"/>
+  <polygon points="663,540 737,540 733,480 667,480" fill="#e63946"/>
+  <polygon points="670,420 730,420 727,360 673,360" fill="#e63946"/>
+  <rect x="664" y="280" width="72" height="20" fill="#333d55"/>
+  <rect x="676" y="232" width="48" height="48" fill="#fff59d"/>
+  <rect x="676" y="232" width="48" height="48" fill="none" stroke="#333d55" stroke-width="6"/>
+  <polygon points="668,232 732,232 700,196" fill="#e63946"/>
+  <rect x="688" y="560" width="24" height="40" fill="#333d55"/>
+  <!-- keeper's house -->
+  <rect x="790" y="520" width="140" height="80" fill="#f1e3c6"/>
+  <polygon points="780,524 860,470 940,524" fill="#3d5a80"/>
+  <rect x="820" y="545" width="26" height="26" fill="#7ec8e3"/><rect x="880" y="555" width="26" height="45" fill="#8d5524"/>
+  <!-- waves -->
+  <g fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.8">
+    <path d="M40 680 q30 -20 60 0 q30 20 60 0"/><path d="M260 740 q30 -20 60 0 q30 20 60 0"/>
+    <path d="M80 840 q30 -20 60 0 q30 20 60 0"/><path d="M330 900 q30 -20 60 0 q30 20 60 0"/>
+    <path d="M140 970 q30 -20 60 0 q30 20 60 0"/><path d="M400 640 q24 -16 48 0 q24 16 48 0"/>
+  </g>
+  <g fill="#ffffff" opacity="0.9"><ellipse cx="520" cy="730" rx="40" ry="10"/><ellipse cx="540" cy="900" rx="50" ry="12"/></g>
+</svg>

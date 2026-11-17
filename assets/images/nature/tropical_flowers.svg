@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <rect width="1024" height="1024" fill="#073b4c"/>
+  <!-- big leaves -->
+  <g fill="#118ab2">
+    <path d="M0 0 q300 80 380 360 q-260 -40 -380 -200 Z"/>
+    <path d="M1024 1024 q-300 -80 -380 -360 q260 40 380 200 Z"/>
+  </g>
+  <g fill="#06d6a0">
+    <path d="M1024 0 q-120 280 -420 320 q80 -260 420 -320 Z"/>
+    <path d="M0 1024 q120 -280 420 -320 q-80 260 -420 320 Z"/>
+    <path d="M1024 420 q-200 0 -300 160 q200 40 300 -60 Z"/>
+    <path d="M0 520 q200 0 300 -160 q-200 -40 -300 60 Z"/>
+  </g>
+  <g stroke="#073b4c" stroke-width="8" fill="none">
+    <path d="M1024 0 q-200 180 -400 300"/><path d="M0 1024 q200 -180 400 -300"/>
+    <path d="M0 0 q200 120 360 340"/><path d="M1024 1024 q-200 -120 -360 -340"/>
+  </g>
+  <!-- hibiscus -->
+  <g transform="translate(470 470)">
+    <g fill="#ef476f">
+      <ellipse cx="0" cy="-130" rx="100" ry="130"/>
+      <ellipse cx="124" cy="-40" rx="100" ry="130" transform="rotate(72 124 -40)"/>
+      <ellipse cx="76" cy="105" rx="100" ry="130" transform="rotate(144 76 105)"/>
+      <ellipse cx="-76" cy="105" rx="100" ry="130" transform="rotate(216 -76 105)"/>
+      <ellipse cx="-124" cy="-40" rx="100" ry="130" transform="rotate(288 -124 -40)"/>
+    </g>
+    <circle r="70" fill="#b5179e"/>
+    <path d="M0 0 L120 -170" stroke="#ffd166" stroke-width="14" stroke-linecap="round"/>
+    <g fill="#ffd166"><circle cx="120" cy="-170" r="16"/><circle cx="104" cy="-186" r="10"/><circle cx="138" cy="-156" r="10"/></g>
+  </g>
+  <!-- bird of paradise -->
+  <g transform="translate(790 760) rotate(-20)">
+    <path d="M-120 40 q120 -60 240 0 q-120 40 -240 0 Z" fill="#118ab2"/>
+    <polygon points="0,0 -40,-200 30,-30" fill="#ff9f1c"/>
+    <polygon points="20,0 60,-190 70,-20" fill="#ffbf69"/>
+    <polygon points="40,10 140,-140 90,10" fill="#ff9f1c"/>
+    <polygon points="0,20 -60,-60 30,10" fill="#7209b7"/>
+    <rect x="-8" y="30" width="16" height="200" fill="#06d6a0"/>
+  </g>
+  <!-- small yellow flower -->
+  <g transform="translate(200 790)">
+    <g fill="#ffd166"><circle cx="0" cy="-48" r="36"/><circle cx="46" cy="-15" r="36"/><circle cx="28" cy="40" r="36"/><circle cx="-28" cy="40" r="36"/><circle cx="-46" cy="-15" r="36"/></g>
+    <circle r="26" fill="#f77f00"/>
+  </g>
+  <g transform="translate(830 220) scale(0.8)">
+    <g fill="#ffffff"><circle cx="0" cy="-48" r="36"/><circle cx="46" cy="-15" r="36"/><circle cx="28" cy="40" r="36"/><circle cx="-28" cy="40" r="36"/><circle cx="-46" cy="-15" r="36"/></g>
+    <circle r="26" fill="#ffd166"/>
+  </g>
+</svg>

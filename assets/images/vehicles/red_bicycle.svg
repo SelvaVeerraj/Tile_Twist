@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a0c4ff"/>
+      <stop offset="1" stop-color="#fdffb6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="860" cy="160" r="80" fill="#ffd60a"/>
+  <g fill="#ffffff"><ellipse cx="200" cy="140" rx="120" ry="40"/><ellipse cx="260" cy="112" rx="70" ry="40"/></g>
+  <!-- hills -->
+  <path d="M0 560 q240 -140 480 -40 t544 -60 V1024 H0 Z" fill="#b5e48c"/>
+  <path d="M0 640 q300 -100 600 -20 t424 -40 V1024 H0 Z" fill="#76c893"/>
+  <!-- lavender rows -->
+  <g fill="#9d4edd"><ellipse cx="120" cy="640" rx="100" ry="16"/><ellipse cx="380" cy="660" rx="120" ry="16"/><ellipse cx="760" cy="630" rx="140" ry="16"/></g>
+  <!-- road -->
+  <rect y="790" width="1024" height="234" fill="#adb5bd"/>
+  <rect y="780" width="1024" height="16" fill="#6c757d"/>
+  <g fill="#ffffff"><rect x="40" y="900" width="120" height="14"/><rect x="260" y="900" width="120" height="14"/><rect x="480" y="900" width="120" height="14"/><rect x="700" y="900" width="120" height="14"/><rect x="920" y="900" width="104" height="14"/></g>
+  <!-- wheels -->
+  <g fill="none" stroke="#22223b" stroke-width="22">
+    <circle cx="300" cy="680" r="150"/><circle cx="740" cy="680" r="150"/>
+  </g>
+  <g stroke="#adb5bd" stroke-width="5">
+    <line x1="300" y1="530" x2="300" y2="830"/><line x1="150" y1="680" x2="450" y2="680"/><line x1="194" y1="574" x2="406" y2="786"/><line x1="194" y1="786" x2="406" y2="574"/>
+    <line x1="740" y1="530" x2="740" y2="830"/><line x1="590" y1="680" x2="890" y2="680"/><line x1="634" y1="574" x2="846" y2="786"/><line x1="634" y1="786" x2="846" y2="574"/>
+  </g>
+  <circle cx="300" cy="680" r="18" fill="#495057"/><circle cx="740" cy="680" r="18" fill="#495057"/>
+  <!-- frame -->
+  <g stroke="#e63946" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <polyline points="300,680 470,680 400,460 300,680"/>
+    <polyline points="470,680 680,470 400,460"/>
+    <line x1="740" y1="680" x2="660" y2="400"/>
+  </g>
+  <!-- seat, handlebar, pedals -->
+  <rect x="340" y="420" width="120" height="30" rx="14" fill="#3d2914"/>
+  <line x1="400" y1="450" x2="400" y2="470" stroke="#495057" stroke-width="14"/>
+  <path d="M660 400 q20 -40 80 -40" stroke="#495057" stroke-width="18" fill="none" stroke-linecap="round"/>
+  <rect x="720" y="346" width="60" height="26" rx="12" fill="#3d2914"/>
+  <circle cx="470" cy="680" r="34" fill="#495057"/>
+  <line x1="470" y1="680" x2="520" y2="740" stroke="#495057" stroke-width="12"/>
+  <rect x="500" y="736" width="50" height="14" fill="#22223b"/>
+  <!-- basket with flowers -->
+  <path d="M690 420 h150 l-20 100 h-110 Z" fill="#d4a373"/>
+  <g stroke="#9c6644" stroke-width="5"><line x1="700" y1="450" x2="830" y2="450"/><line x1="706" y1="480" x2="826" y2="480"/></g>
+  <g><circle cx="730" cy="400" r="26" fill="#ff5d8f"/><circle cx="780" cy="390" r="28" fill="#ffd60a"/><circle cx="820" cy="410" r="24" fill="#ffffff"/><circle cx="780" cy="390" r="10" fill="#f77f00"/></g>
+  <g fill="#52b788"><ellipse cx="700" cy="410" rx="20" ry="10"/><ellipse cx="840" cy="400" rx="20" ry="10"/></g>
+</svg>

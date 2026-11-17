@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#bde0fe"/>
+      <stop offset="1" stop-color="#fff0f6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <!-- far hills -->
+  <path d="M0 760 q200 -120 420 -40 t604 -60 V1024 H0 Z" fill="#b7e4c7"/>
+  <path d="M0 860 q260 -80 520 -20 t504 -10 V1024 H0 Z" fill="#74c69d"/>
+  <!-- path -->
+  <path d="M440 1024 q40 -120 120 -170 l60 0 q-60 60 -40 170 Z" fill="#e9c46a"/>
+  <!-- trunk -->
+  <path d="M470 900 q-20 -200 30 -380 q-120 -60 -200 -180 M500 600 q120 -60 210 -200 M520 480 q20 -120 -30 -240" stroke="#5e3023" stroke-width="44" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M470 900 q-10 -120 10 -260" stroke="#5e3023" stroke-width="70" fill="none" stroke-linecap="round"/>
+  <!-- blossom clouds -->
+  <g fill="#ffb3c6">
+    <circle cx="300" cy="320" r="130"/><circle cx="460" cy="220" r="150"/><circle cx="660" cy="260" r="140"/>
+    <circle cx="780" cy="380" r="110"/><circle cx="200" cy="440" r="100"/><circle cx="560" cy="380" r="120"/>
+  </g>
+  <g fill="#ff8fab">
+    <circle cx="380" cy="380" r="80"/><circle cx="620" cy="160" r="90"/><circle cx="240" cy="260" r="70"/><circle cx="760" cy="300" r="70"/>
+  </g>
+  <g fill="#ffe5ec">
+    <circle cx="460" cy="150" r="60"/><circle cx="300" cy="230" r="50"/><circle cx="700" cy="220" r="44"/><circle cx="560" cy="300" r="40"/>
+  </g>
+  <!-- falling petals -->
+  <g fill="#ff8fab">
+    <ellipse cx="120" cy="620" rx="16" ry="9" transform="rotate(30 120 620)"/>
+    <ellipse cx="260" cy="700" rx="16" ry="9" transform="rotate(-20 260 700)"/>
+    <ellipse cx="860" cy="620" rx="16" ry="9" transform="rotate(50 860 620)"/>
+    <ellipse cx="700" cy="760" rx="16" ry="9" transform="rotate(10 700 760)"/>
+    <ellipse cx="920" cy="820" rx="16" ry="9" transform="rotate(-40 920 820)"/>
+    <ellipse cx="160" cy="900" rx="16" ry="9" transform="rotate(70 160 900)"/>
+    <ellipse cx="80" cy="120" rx="16" ry="9" transform="rotate(20 80 120)"/>
+    <ellipse cx="940" cy="120" rx="16" ry="9" transform="rotate(-30 940 120)"/>
+  </g>
+  <!-- small bench -->
+  <rect x="720" y="800" width="200" height="20" fill="#9c6644"/>
+  <rect x="730" y="820" width="14" height="60" fill="#7f5539"/><rect x="896" y="820" width="14" height="60" fill="#7f5539"/>
+  <rect x="720" y="760" width="200" height="16" fill="#9c6644"/>
+</svg>

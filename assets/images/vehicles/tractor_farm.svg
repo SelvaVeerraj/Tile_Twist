@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ecae6"/>
+      <stop offset="1" stop-color="#fefae0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="160" cy="150" r="80" fill="#ffb703"/>
+  <g fill="#ffffff"><ellipse cx="700" cy="120" rx="120" ry="38"/><ellipse cx="760" cy="96" rx="70" ry="38"/></g>
+  <!-- barn -->
+  <g transform="translate(700 260)">
+    <rect x="0" y="80" width="240" height="200" fill="#c1121f"/>
+    <polygon points="-20,90 120,-20 260,90" fill="#780000"/>
+    <rect x="80" y="160" width="80" height="120" fill="#fefae0"/>
+    <path d="M80 160 L160 280 M160 160 L80 280" stroke="#c1121f" stroke-width="10"/>
+    <rect x="100" y="90" width="40" height="40" fill="#fefae0"/>
+  </g>
+  <!-- silo -->
+  <rect x="610" y="300" width="80" height="240" fill="#adb5bd"/>
+  <path d="M610 300 a40 40 0 0 1 80 0 Z" fill="#6c757d"/>
+  <!-- fields -->
+  <path d="M0 540 h1024 v484 H0 Z" fill="#a7c957"/>
+  <polygon points="0,540 400,540 0,700" fill="#f4d35e"/>
+  <polygon points="1024,540 1024,760 560,540" fill="#ee964b"/>
+  <g stroke="#6a994e" stroke-width="10" opacity="0.6">
+    <line x1="0" y1="780" x2="1024" y2="700"/><line x1="0" y1="860" x2="1024" y2="780"/><line x1="0" y1="940" x2="1024" y2="860"/><line x1="0" y1="1020" x2="1024" y2="940"/>
+  </g>
+  <!-- fence -->
+  <g fill="#fefae0"><rect x="20" y="560" width="14" height="70"/><rect x="100" y="560" width="14" height="70"/><rect x="180" y="560" width="14" height="70"/><rect x="260" y="560" width="14" height="70"/></g>
+  <g fill="#fefae0"><rect x="10" y="575" width="280" height="10"/><rect x="10" y="605" width="280" height="10"/></g>
+  <!-- tractor -->
+  <g transform="translate(160 600)">
+    <rect x="300" y="100" width="300" height="140" rx="20" fill="#2d6a4f"/>
+    <rect x="80" y="0" width="240" height="240" rx="16" fill="#40916c"/>
+    <rect x="110" y="30" width="180" height="110" rx="10" fill="#caf0f8"/>
+    <rect x="96" y="-20" width="210" height="30" rx="10" fill="#1b4332"/>
+    <rect x="500" y="40" width="26" height="70" fill="#495057"/>
+    <g fill="#ffd166"><rect x="580" y="130" width="30" height="24" rx="6"/></g>
+    <rect x="60" y="230" width="560" height="24" rx="10" fill="#1b4332"/>
+    <!-- wheels -->
+    <circle cx="170" cy="290" r="130" fill="#22223b"/><circle cx="170" cy="290" r="70" fill="#ffd60a"/><circle cx="170" cy="290" r="24" fill="#495057"/>
+    <circle cx="520" cy="320" r="80" fill="#22223b"/><circle cx="520" cy="320" r="42" fill="#ffd60a"/><circle cx="520" cy="320" r="14" fill="#495057"/>
+  </g>
+  <!-- exhaust puffs -->
+  <g fill="#e9ecef"><circle cx="700" cy="610" r="24"/><circle cx="730" cy="570" r="30"/><circle cx="770" cy="530" r="36"/></g>
+  <!-- hay bales -->
+  <g><ellipse cx="900" cy="920" rx="90" ry="70" fill="#e9c46a"/><ellipse cx="900" cy="920" rx="50" ry="40" fill="#f4d35e"/><path d="M870 920 a30 24 0 1 1 60 0" stroke="#d4a373" stroke-width="6" fill="none"/></g>
+</svg>

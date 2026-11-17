@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f86e8"/>
+      <stop offset="1" stop-color="#bfe3ff"/>
+    </linearGradient>
+    <linearGradient id="lake" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1fa59a"/>
+      <stop offset="0.5" stop-color="#11707f"/>
+      <stop offset="1" stop-color="#0b2f66"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="560" fill="url(#sky)"/>
+  <ellipse cx="300" cy="120" rx="110" ry="34" fill="#ffffff"/>
+  <ellipse cx="360" cy="100" rx="70" ry="40" fill="#ffffff"/>
+  <ellipse cx="850" cy="70" rx="90" ry="28" fill="#ffffff"/>
+  <ellipse cx="800" cy="58" rx="56" ry="30" fill="#ffffff"/>
+  <!-- far rocky peaks -->
+  <polygon points="430,560 600,170 660,230 720,140 820,250 900,190 1024,330 1024,560" fill="#8b93a8"/>
+  <polygon points="600,170 640,230 615,250 660,300 600,280 560,320 585,240" fill="#f4f7fb"/>
+  <polygon points="720,140 770,200 740,215 790,270 735,250 700,290 705,210" fill="#f4f7fb"/>
+  <polygon points="900,190 950,250 925,260 980,320 920,300 880,330 885,250" fill="#f4f7fb"/>
+  <!-- left green mountains -->
+  <polygon points="0,560 0,130 120,60 230,110 300,70 420,140 560,280 700,420 760,560" fill="#2e6b3a"/>
+  <polygon points="120,60 230,110 300,70 340,120 250,180 160,150 60,200 0,180 0,130" fill="#c9b99a"/>
+  <polygon points="380,120 470,100 540,190 470,220 400,200" fill="#d8d2c4"/>
+  <polygon points="0,560 0,330 200,260 420,300 640,420 900,470 1024,450 1024,560" fill="#1d4f2b"/>
+  <!-- pine treeline -->
+  <g fill="#123a20">
+    <polygon points="0,560 20,480 40,560"/><polygon points="30,560 55,460 80,560"/><polygon points="70,560 92,490 114,560"/>
+    <polygon points="110,560 135,470 160,560"/><polygon points="150,560 172,500 194,560"/><polygon points="190,560 214,475 238,560"/>
+    <polygon points="760,560 785,470 810,560"/><polygon points="800,560 822,490 844,560"/><polygon points="835,560 860,455 885,560"/>
+    <polygon points="875,560 898,485 921,560"/><polygon points="910,560 935,460 960,560"/><polygon points="950,560 975,480 1000,560"/>
+    <polygon points="985,560 1008,470 1031,560"/>
+  </g>
+  <rect y="548" width="1024" height="14" fill="#0f2f1a"/>
+  <!-- lake with mirrored reflections -->
+  <rect y="560" width="1024" height="464" fill="url(#lake)"/>
+  <g opacity="0.35">
+    <polygon points="430,560 600,950 660,890 720,980 820,870 900,930 1024,790 1024,560" fill="#c7cede"/>
+    <polygon points="0,560 0,990 120,1060 230,1010 300,1050 420,980 560,840 700,700 760,560" fill="#0d3a1e"/>
+  </g>
+  <ellipse cx="660" cy="900" rx="110" ry="22" fill="#ffffff" opacity="0.45"/>
+  <ellipse cx="200" cy="980" rx="80" ry="14" fill="#ffffff" opacity="0.3"/>
+  <g stroke="#ffffff" stroke-width="4" opacity="0.4" stroke-linecap="round">
+    <line x1="120" y1="640" x2="260" y2="640"/><line x1="500" y1="700" x2="610" y2="700"/>
+    <line x1="780" y1="660" x2="900" y2="660"/><line x1="320" y1="790" x2="420" y2="790"/>
+    <line x1="820" y1="760" x2="960" y2="760"/>
+  </g>
+  <!-- small red canoe -->
+  <path d="M380 620 Q440 640 500 620 L490 632 Q440 646 390 632 Z" fill="#d94a2b"/>
+  <line x1="440" y1="590" x2="452" y2="635" stroke="#5a3a1a" stroke-width="5"/>
+</svg>

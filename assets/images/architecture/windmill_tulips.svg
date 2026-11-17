@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4ea8de"/>
+      <stop offset="1" stop-color="#d0f4de"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <g fill="#ffffff"><ellipse cx="160" cy="140" rx="110" ry="36"/><ellipse cx="210" cy="116" rx="60" ry="34"/><ellipse cx="860" cy="240" rx="100" ry="32"/></g>
+  <!-- ground -->
+  <rect y="600" width="1024" height="424" fill="#80b918"/>
+  <!-- tulip rows -->
+  <polygon points="0,700 1024,640 1024,700 0,780" fill="#ef233c"/>
+  <polygon points="0,780 1024,700 1024,760 0,860" fill="#ffd60a"/>
+  <polygon points="0,860 1024,760 1024,830 0,950" fill="#f72585"/>
+  <polygon points="0,950 1024,830 1024,910 0,1024" fill="#ff9e00"/>
+  <polygon points="0,1024 1024,910 1024,1024" fill="#9d4edd"/>
+  <g stroke="#55a630" stroke-width="6">
+    <line x1="0" y1="780" x2="1024" y2="700"/><line x1="0" y1="860" x2="1024" y2="760"/><line x1="0" y1="950" x2="1024" y2="830"/><line x1="0" y1="1024" x2="1024" y2="910"/>
+  </g>
+  <!-- canal -->
+  <polygon points="0,610 1024,590 1024,630 0,660" fill="#48cae4"/>
+  <!-- windmill tower -->
+  <polygon points="420,620 600,620 570,320 450,320" fill="#9c6644"/>
+  <polygon points="430,320 590,320 510,220" fill="#5e3023"/>
+  <rect x="480" y="520" width="60" height="100" rx="30" fill="#3d2914"/>
+  <rect x="490" y="400" width="40" height="40" fill="#fefae0"/>
+  <rect x="440" y="440" width="140" height="14" fill="#5e3023"/>
+  <!-- sails -->
+  <g transform="translate(510 300) rotate(20)">
+    <g fill="#fefae0" stroke="#5e3023" stroke-width="6">
+      <rect x="-26" y="-280" width="52" height="250"/>
+      <rect x="30" y="-26" width="250" height="52"/>
+      <rect x="-26" y="30" width="52" height="250"/>
+      <rect x="-280" y="-26" width="250" height="52"/>
+    </g>
+    <g stroke="#5e3023" stroke-width="4">
+      <line x1="-26" y1="-200" x2="26" y2="-200"/><line x1="-26" y1="-120" x2="26" y2="-120"/>
+      <line x1="120" y1="-26" x2="120" y2="26"/><line x1="200" y1="-26" x2="200" y2="26"/>
+      <line x1="-26" y1="120" x2="26" y2="120"/><line x1="-26" y1="200" x2="26" y2="200"/>
+      <line x1="-120" y1="-26" x2="-120" y2="26"/><line x1="-200" y1="-26" x2="-200" y2="26"/>
+    </g>
+    <circle r="30" fill="#3d2914"/>
+  </g>
+  <!-- small windmill in distance -->
+  <g transform="translate(860 560) scale(0.35)">
+    <polygon points="420,620 600,620 570,320 450,320" fill="#7f5539"/>
+    <polygon points="430,320 590,320 510,220" fill="#5e3023"/>
+    <g transform="translate(510 300) rotate(-10)" fill="#fefae0"><rect x="-26" y="-280" width="52" height="250"/><rect x="30" y="-26" width="250" height="52"/><rect x="-26" y="30" width="52" height="250"/><rect x="-280" y="-26" width="250" height="52"/></g>
+  </g>
+</svg>

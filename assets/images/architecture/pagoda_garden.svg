@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd6a5"/>
+      <stop offset="1" stop-color="#fdffb6"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="780" cy="220" r="110" fill="#ff6b6b"/>
+  <!-- mountains -->
+  <polygon points="0,560 200,320 380,560" fill="#b8c0ff"/>
+  <polygon points="600,560 820,280 1024,520 1024,560" fill="#bbd0ff"/>
+  <!-- pond -->
+  <rect y="760" width="1024" height="264" fill="#4cc9f0"/>
+  <g stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.7"><line x1="80" y1="840" x2="220" y2="840"/><line x1="700" y1="880" x2="880" y2="880"/><line x1="300" y1="960" x2="480" y2="960"/></g>
+  <!-- ground -->
+  <path d="M0 560 h1024 v220 q-260 -20 -520 0 t-504 0 Z" fill="#95d5b2"/>
+  <!-- pagoda -->
+  <g fill="#d62828">
+    <rect x="430" y="600" width="164" height="150"/>
+    <rect x="450" y="470" width="124" height="100"/>
+    <rect x="466" y="360" width="92" height="80"/>
+    <rect x="480" y="260" width="64" height="70"/>
+  </g>
+  <g fill="#22223b">
+    <path d="M350 610 q160 -50 324 0 l-30 -40 h-264 Z"/>
+    <path d="M380 480 q132 -44 264 0 l-26 -36 h-212 Z"/>
+    <path d="M400 370 q112 -38 224 0 l-22 -32 h-180 Z"/>
+    <path d="M420 270 q92 -34 184 0 l-20 -30 h-144 Z"/>
+  </g>
+  <rect x="506" y="160" width="12" height="80" fill="#ffd60a"/>
+  <g fill="#ffd60a"><circle cx="512" cy="180" r="12"/><circle cx="512" cy="210" r="10"/></g>
+  <g fill="#ffd166"><rect x="490" y="660" width="44" height="90"/><rect x="494" y="500" width="36" height="44"/><rect x="498" y="384" width="28" height="36"/><rect x="500" y="280" width="24" height="30"/></g>
+  <!-- arched bridge -->
+  <path d="M140 790 q140 -120 280 0" stroke="#d62828" stroke-width="20" fill="none"/>
+  <path d="M140 790 q140 -90 280 0" stroke="#d62828" stroke-width="10" fill="none"/>
+  <g stroke="#d62828" stroke-width="8"><line x1="180" y1="760" x2="180" y2="730"/><line x1="230" y1="738" x2="230" y2="708"/><line x1="280" y1="730" x2="280" y2="700"/><line x1="330" y1="738" x2="330" y2="708"/><line x1="380" y1="760" x2="380" y2="730"/></g>
+  <!-- lanterns -->
+  <g transform="translate(740 660)"><rect x="-10" y="0" width="20" height="100" fill="#adb5bd"/><rect x="-40" y="-40" width="80" height="50" fill="#adb5bd"/><polygon points="-50,-40 0,-80 50,-40" fill="#6c757d"/><rect x="-20" y="-30" width="40" height="30" fill="#ffd166"/></g>
+  <!-- maple trees -->
+  <g><rect x="864" y="600" width="16" height="140" fill="#6f4518"/><circle cx="872" cy="580" r="70" fill="#f77f00"/><circle cx="920" cy="620" r="50" fill="#d62828"/></g>
+  <g><rect x="84" y="600" width="16" height="120" fill="#6f4518"/><circle cx="92" cy="580" r="60" fill="#ff8fab"/><circle cx="50" cy="620" r="44" fill="#ffb3c6"/></g>
+  <!-- koi -->
+  <g fill="#f77f00"><ellipse cx="600" cy="900" rx="44" ry="18"/><polygon points="640,900 670,884 670,916"/></g>
+</svg>

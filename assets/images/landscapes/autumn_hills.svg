@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb4a2"/>
+      <stop offset="1" stop-color="#fff3b0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="512" cy="360" r="130" fill="#ffd166"/>
+  <g fill="#ffffff" opacity="0.8"><ellipse cx="180" cy="160" rx="120" ry="36"/><ellipse cx="860" cy="120" rx="110" ry="32"/></g>
+  <!-- rolling hills -->
+  <path d="M0 460 q160 -100 340 -20 q180 80 360 -40 q180 -110 324 0 V1024 H0 Z" fill="#e5989b"/>
+  <path d="M0 560 q200 -110 420 0 q200 100 400 -40 q120 -70 204 -20 V1024 H0 Z" fill="#f4a261"/>
+  <path d="M0 680 q240 -120 500 -10 q240 100 524 -50 V1024 H0 Z" fill="#e76f51"/>
+  <path d="M0 820 q300 -100 560 0 q240 80 464 -40 V1024 H0 Z" fill="#bc4749"/>
+  <!-- winding road -->
+  <path d="M600 1024 q-200 -80 -60 -200 q140 -110 -20 -200 q-120 -70 20 -150" stroke="#fefae0" stroke-width="40" fill="none" stroke-linecap="round"/>
+  <path d="M600 1024 q-200 -80 -60 -200 q140 -110 -20 -200 q-120 -70 20 -150" stroke="#e9c46a" stroke-width="6" stroke-dasharray="20 20" fill="none"/>
+  <!-- round trees -->
+  <g>
+    <rect x="146" y="620" width="16" height="60" fill="#6f4518"/><circle cx="154" cy="600" r="50" fill="#ffb703"/>
+    <rect x="256" y="660" width="16" height="60" fill="#6f4518"/><circle cx="264" cy="640" r="44" fill="#d62828"/>
+    <rect x="806" y="560" width="16" height="60" fill="#6f4518"/><circle cx="814" cy="540" r="50" fill="#fb8500"/>
+    <rect x="896" y="600" width="16" height="60" fill="#6f4518"/><circle cx="904" cy="580" r="40" fill="#ffb703"/>
+    <rect x="96" y="860" width="18" height="70" fill="#6f4518"/><circle cx="105" cy="830" r="60" fill="#fb8500"/>
+    <rect x="860" y="860" width="18" height="70" fill="#6f4518"/><circle cx="869" cy="830" r="60" fill="#ffb703"/>
+  </g>
+  <!-- tall poplars -->
+  <g fill="#ffd166"><ellipse cx="380" cy="480" rx="22" ry="70"/><ellipse cx="420" cy="490" rx="20" ry="60"/><ellipse cx="680" cy="420" rx="22" ry="70"/></g>
+  <!-- farmhouse -->
+  <g transform="translate(330 740)">
+    <rect x="0" y="30" width="140" height="90" fill="#fefae0"/>
+    <polygon points="-16,40 70,-30 156,40" fill="#6d597a"/>
+    <rect x="20" y="56" width="34" height="30" fill="#8ecae6"/>
+    <rect x="86" y="60" width="34" height="60" fill="#9c6644"/>
+  </g>
+  <!-- birds -->
+  <path d="M640 200 q16 -16 32 0 q16 -16 32 0 M740 250 q12 -12 24 0 q12 -12 24 0" stroke="#6d597a" stroke-width="6" fill="none" stroke-linecap="round"/>
+</svg>

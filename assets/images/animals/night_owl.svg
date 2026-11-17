@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1d51"/>
+      <stop offset="1" stop-color="#3a3f8f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="800" cy="220" r="130" fill="#fff4c2" opacity="0.25"/>
+  <circle cx="800" cy="220" r="100" fill="#fff4c2"/>
+  <circle cx="770" cy="200" r="16" fill="#efe0a0"/><circle cx="830" cy="250" r="22" fill="#efe0a0"/><circle cx="820" cy="180" r="10" fill="#efe0a0"/>
+  <g fill="#ffffff">
+    <circle cx="90" cy="90" r="4"/><circle cx="200" cy="200" r="3"/><circle cx="320" cy="80" r="5"/><circle cx="460" cy="160" r="3"/>
+    <circle cx="560" cy="60" r="4"/><circle cx="640" cy="340" r="3"/><circle cx="950" cy="420" r="4"/><circle cx="120" cy="380" r="3"/>
+    <circle cx="960" cy="80" r="3"/><circle cx="40" cy="560" r="4"/><circle cx="980" cy="620" r="3"/><circle cx="260" cy="440" r="3"/>
+  </g>
+  <!-- hills -->
+  <path d="M0 860 Q260 780 520 850 T1024 830 L1024 1024 L0 1024 Z" fill="#14244f"/>
+  <!-- branch -->
+  <path d="M0 760 Q300 720 620 750 T1024 700 L1024 740 Q800 790 620 790 T0 800 Z" fill="#4a2e1c"/>
+  <g fill="#2d6a4f">
+    <ellipse cx="120" cy="740" rx="44" ry="18" transform="rotate(-20 120 740)"/>
+    <ellipse cx="820" cy="720" rx="44" ry="18" transform="rotate(20 820 720)"/>
+    <ellipse cx="900" cy="690" rx="38" ry="15" transform="rotate(-30 900 690)"/>
+    <ellipse cx="200" cy="780" rx="38" ry="15" transform="rotate(25 200 780)"/>
+  </g>
+  <!-- owl body -->
+  <ellipse cx="500" cy="560" rx="200" ry="230" fill="#8d5b3f"/>
+  <ellipse cx="500" cy="620" rx="130" ry="160" fill="#e9c9a1"/>
+  <g fill="none" stroke="#b08860" stroke-width="6" stroke-linecap="round">
+    <path d="M430 560 q20 18 40 0 M490 560 q20 18 40 0 M550 560 q20 18 40 0"/>
+    <path d="M410 620 q20 18 40 0 M470 620 q20 18 40 0 M530 620 q20 18 40 0"/>
+    <path d="M440 680 q20 18 40 0 M500 680 q20 18 40 0"/>
+  </g>
+  <!-- wings -->
+  <path d="M300 520 q-60 140 20 280 q40 -120 30 -260 z" fill="#6f4430"/>
+  <path d="M700 520 q60 140 -20 280 q-40 -120 -30 -260 z" fill="#6f4430"/>
+  <!-- ear tufts -->
+  <polygon points="350,360 330,250 430,340" fill="#6f4430"/>
+  <polygon points="650,360 670,250 570,340" fill="#6f4430"/>
+  <!-- eyes -->
+  <circle cx="420" cy="440" r="80" fill="#f5e6c8"/>
+  <circle cx="580" cy="440" r="80" fill="#f5e6c8"/>
+  <circle cx="420" cy="440" r="54" fill="#ffb703"/>
+  <circle cx="580" cy="440" r="54" fill="#ffb703"/>
+  <circle cx="420" cy="440" r="30" fill="#111111"/>
+  <circle cx="580" cy="440" r="30" fill="#111111"/>
+  <circle cx="432" cy="428" r="10" fill="#ffffff"/>
+  <circle cx="592" cy="428" r="10" fill="#ffffff"/>
+  <polygon points="480,500 520,500 500,550" fill="#f4a261"/>
+  <!-- feet -->
+  <g fill="#f4a261"><ellipse cx="440" cy="770" rx="34" ry="14"/><ellipse cx="560" cy="770" rx="34" ry="14"/></g>
+</svg>

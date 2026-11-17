@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1fb5c9"/>
+      <stop offset="1" stop-color="#145da0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- circuit lines -->
+  <g stroke="#7ff3ff" stroke-width="6" fill="none" opacity="0.35" stroke-linecap="round">
+    <path d="M0 120 H180 V260 H320"/><path d="M1024 160 H840 V320 H720"/><path d="M0 860 H160 V740 H260"/>
+    <path d="M1024 880 H860 V760 H760"/><path d="M80 0 V80 H260"/><path d="M940 1024 V940 H780"/>
+  </g>
+  <g fill="#7ff3ff" opacity="0.55"><circle cx="320" cy="260" r="12"/><circle cx="720" cy="320" r="12"/><circle cx="260" cy="740" r="12"/><circle cx="760" cy="760" r="12"/><circle cx="260" cy="80" r="10"/><circle cx="780" cy="940" r="10"/></g>
+  <!-- gears -->
+  <g fill="#0f4c81" opacity="0.7">
+    <circle cx="140" cy="440" r="80"/><circle cx="890" cy="560" r="100"/>
+  </g>
+  <g fill="#1fb5c9"><circle cx="140" cy="440" r="30"/><circle cx="890" cy="560" r="38"/></g>
+  <g fill="#0f4c81" opacity="0.7">
+    <rect x="125" y="340" width="30" height="40"/><rect x="125" y="500" width="30" height="40"/><rect x="40" y="425" width="40" height="30"/><rect x="200" y="425" width="40" height="30"/>
+    <rect x="872" y="435" width="36" height="40"/><rect x="872" y="645" width="36" height="40"/><rect x="765" y="542" width="40" height="36"/><rect x="975" y="542" width="40" height="36"/>
+  </g>
+  <!-- antenna -->
+  <line x1="512" y1="160" x2="512" y2="240" stroke="#d0d7e2" stroke-width="12"/>
+  <circle cx="512" cy="150" r="26" fill="#ff5c8a"/>
+  <!-- head -->
+  <rect x="330" y="240" width="364" height="260" rx="60" fill="#e8eef5"/>
+  <rect x="300" y="320" width="40" height="100" rx="16" fill="#b8c4d4"/>
+  <rect x="684" y="320" width="40" height="100" rx="16" fill="#b8c4d4"/>
+  <rect x="370" y="280" width="284" height="180" rx="40" fill="#1d2b44"/>
+  <circle cx="450" cy="360" r="36" fill="#5ef2ff"/>
+  <circle cx="574" cy="360" r="36" fill="#5ef2ff"/>
+  <circle cx="460" cy="350" r="12" fill="#ffffff"/>
+  <circle cx="584" cy="350" r="12" fill="#ffffff"/>
+  <path d="M460 420 Q512 455 564 420" stroke="#5ef2ff" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- neck & body -->
+  <rect x="470" y="500" width="84" height="40" fill="#b8c4d4"/>
+  <rect x="340" y="540" width="344" height="300" rx="50" fill="#e8eef5"/>
+  <rect x="400" y="590" width="224" height="140" rx="24" fill="#1d2b44"/>
+  <g>
+    <rect x="425" y="615" width="40" height="40" rx="8" fill="#ffd166"/>
+    <rect x="490" y="615" width="40" height="40" rx="8" fill="#06d6a0"/>
+    <rect x="555" y="615" width="40" height="40" rx="8" fill="#ff5c8a"/>
+    <rect x="425" y="675" width="170" height="20" rx="10" fill="#5ef2ff"/>
+  </g>
+  <circle cx="512" cy="780" r="26" fill="#ff8a3d"/>
+  <!-- arms -->
+  <rect x="250" y="570" width="90" height="40" rx="20" fill="#b8c4d4"/>
+  <rect x="230" y="570" width="40" height="190" rx="20" fill="#b8c4d4"/>
+  <circle cx="250" cy="780" r="34" fill="#e8eef5"/>
+  <rect x="684" y="570" width="90" height="40" rx="20" fill="#b8c4d4"/>
+  <rect x="754" y="420" width="40" height="190" rx="20" fill="#b8c4d4"/>
+  <circle cx="774" cy="400" r="34" fill="#e8eef5"/>
+  <!-- legs -->
+  <rect x="400" y="840" width="70" height="110" rx="20" fill="#b8c4d4"/>
+  <rect x="554" y="840" width="70" height="110" rx="20" fill="#b8c4d4"/>
+  <rect x="380" y="930" width="110" height="50" rx="24" fill="#1d2b44"/>
+  <rect x="534" y="930" width="110" height="50" rx="24" fill="#1d2b44"/>
+</svg>

@@ -1,0 +1,17 @@
+# Godot cache and build output
+.godot/
+build/
+*.tmp
+
+# Local copy of the Godot editor (too large for GitHub; download from godotengine.org)
+Godot_v*/
+Godot_v*.exe
+
+# Android builds and signing keys
+*.apk
+*.aab
+*.idsig
+*.keystore
+
+# Local tool settings
+.claude/

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="space" cx="0.3" cy="0.3" r="1">
+      <stop offset="0" stop-color="#3c096c"/>
+      <stop offset="1" stop-color="#10002b"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#space)"/>
+  <!-- stars -->
+  <g fill="#ffffff"><circle cx="80" cy="80" r="4"/><circle cx="220" cy="180" r="3"/><circle cx="400" cy="60" r="5"/><circle cx="560" cy="140" r="3"/><circle cx="700" cy="50" r="4"/><circle cx="900" cy="120" r="5"/><circle cx="960" cy="320" r="3"/><circle cx="60" cy="400" r="3"/><circle cx="300" cy="320" r="4"/><circle cx="820" cy="420" r="3"/></g>
+  <!-- earth -->
+  <circle cx="380" cy="1040" r="520" fill="#4361ee"/>
+  <path d="M60 760 q80 -60 160 -20 q60 40 120 0 q40 -40 100 -10 q20 60 -40 90 q-80 30 -140 80 q-80 50 -200 30 Z" fill="#52b788"/>
+  <path d="M520 600 q80 -20 140 30 q40 50 120 40 q40 40 0 90 q-80 20 -140 -10 q-80 -40 -120 -150 Z" fill="#52b788"/>
+  <path d="M300 900 q60 -40 140 0 q40 60 -20 100 h-120 Z" fill="#40916c"/>
+  <g fill="#ffffff" opacity="0.7"><ellipse cx="300" cy="640" rx="100" ry="20"/><ellipse cx="620" cy="760" rx="80" ry="16"/><ellipse cx="160" cy="880" rx="70" ry="14"/></g>
+  <circle cx="380" cy="1040" r="530" fill="none" stroke="#90e0ef" stroke-width="14" opacity="0.5"/>
+  <!-- moon -->
+  <circle cx="860" cy="220" r="80" fill="#e9ecef"/>
+  <g fill="#ced4da"><circle cx="830" cy="200" r="16"/><circle cx="880" cy="250" r="12"/><circle cx="890" cy="190" r="8"/></g>
+  <!-- satellite -->
+  <g transform="translate(600 360) rotate(-25)">
+    <!-- solar panels -->
+    <g fill="#3a86ff" stroke="#adb5bd" stroke-width="6">
+      <rect x="-360" y="-60" width="240" height="120"/>
+      <rect x="120" y="-60" width="240" height="120"/>
+    </g>
+    <g stroke="#adb5bd" stroke-width="4">
+      <line x1="-300" y1="-60" x2="-300" y2="60"/><line x1="-240" y1="-60" x2="-240" y2="60"/><line x1="-180" y1="-60" x2="-180" y2="60"/><line x1="-360" y1="0" x2="-120" y2="0"/>
+      <line x1="180" y1="-60" x2="180" y2="60"/><line x1="240" y1="-60" x2="240" y2="60"/><line x1="300" y1="-60" x2="300" y2="60"/><line x1="120" y1="0" x2="360" y2="0"/>
+    </g>
+    <rect x="-120" y="-10" width="240" height="20" fill="#6c757d"/>
+    <!-- body -->
+    <rect x="-80" y="-100" width="160" height="200" rx="16" fill="#ffd60a"/>
+    <rect x="-60" y="-80" width="120" height="40" rx="8" fill="#f77f00"/>
+    <circle cx="0" cy="30" r="34" fill="#48cae4" stroke="#495057" stroke-width="8"/>
+    <!-- dish -->
+    <path d="M-60 100 q60 80 120 0 Z" fill="#e9ecef"/>
+    <line x1="0" y1="110" x2="0" y2="170" stroke="#adb5bd" stroke-width="6"/>
+    <circle cx="0" cy="174" r="10" fill="#ef233c"/>
+  </g>
+  <!-- signal waves -->
+  <g fill="none" stroke="#72efdd" stroke-width="8" stroke-linecap="round" opacity="0.8">
+    <path d="M610 560 q-30 30 -10 70"/><path d="M570 580 q-40 50 -10 110"/><path d="M530 600 q-50 70 -10 150"/>
+  </g>
+</svg>

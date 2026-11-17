@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#240046"/>
+      <stop offset="1" stop-color="#5a189a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#bg)"/>
+  <!-- neon grid floor -->
+  <polygon points="0,760 1024,760 1024,1024 0,1024" fill="#10002b"/>
+  <g stroke="#f72585" stroke-width="4" opacity="0.8">
+    <line x1="0" y1="800" x2="1024" y2="800"/><line x1="0" y1="860" x2="1024" y2="860"/><line x1="0" y1="940" x2="1024" y2="940"/>
+    <line x1="512" y1="760" x2="512" y2="1024"/><line x1="400" y1="760" x2="200" y2="1024"/><line x1="300" y1="760" x2="-100" y2="1024"/><line x1="624" y1="760" x2="824" y2="1024"/><line x1="724" y1="760" x2="1124" y2="1024"/>
+  </g>
+  <!-- neon wall signs -->
+  <g fill="none" stroke-width="12" stroke-linecap="round">
+    <path d="M80 140 l40 -60 l40 60 Z" stroke="#4cc9f0"/>
+    <circle cx="900" cy="120" r="44" stroke="#ffd60a"/>
+    <path d="M60 420 h80 M100 380 v80" stroke="#80ffdb"/>
+    <path d="M860 380 l60 60 M920 380 l-60 60" stroke="#f72585"/>
+  </g>
+  <g fill="#ffffff"><circle cx="240" cy="80" r="3"/><circle cx="780" cy="260" r="3"/><circle cx="160" cy="600" r="3"/><circle cx="880" cy="620" r="3"/></g>
+  <!-- cabinet -->
+  <polygon points="300,120 724,120 724,900 300,900" fill="#3a86ff"/>
+  <polygon points="724,120 800,160 800,900 724,900" fill="#265cba"/>
+  <!-- marquee -->
+  <rect x="320" y="140" width="384" height="100" rx="12" fill="#ffd60a"/>
+  <g fill="#f72585"><rect x="350" y="170" width="36" height="40"/><rect x="400" y="170" width="36" height="40"/><rect x="450" y="170" width="36" height="40"/></g>
+  <g fill="#3a0ca3"><circle cx="560" cy="190" r="24"/><circle cx="630" cy="190" r="24"/></g>
+  <!-- screen -->
+  <rect x="330" y="270" width="364" height="300" rx="16" fill="#111"/>
+  <rect x="350" y="290" width="324" height="260" rx="10" fill="#03045e"/>
+  <!-- maze game on screen -->
+  <g stroke="#4cc9f0" stroke-width="8" fill="none">
+    <rect x="370" y="310" width="284" height="220" rx="8"/>
+    <path d="M420 350 h80 M560 350 h60 M420 480 h60 M540 480 h80 M512 380 v60"/>
+  </g>
+  <g fill="#ffd60a"><circle cx="400" cy="420" r="24"/></g>
+  <polygon points="400,420 424,404 424,436" fill="#03045e"/>
+  <g fill="#ffffff"><circle cx="450" cy="420" r="6"/><circle cx="480" cy="420" r="6"/><circle cx="560" cy="420" r="6"/><circle cx="590" cy="420" r="6"/></g>
+  <path d="M600 400 a20 20 0 0 1 40 0 v30 l-10 -8 l-10 8 l-10 -8 l-10 8 Z" fill="#ef233c"/>
+  <!-- control panel -->
+  <polygon points="300,600 724,600 760,700 264,700" fill="#4361ee"/>
+  <circle cx="380" cy="650" r="30" fill="#22223b"/>
+  <rect x="372" y="600" width="16" height="50" fill="#adb5bd"/>
+  <circle cx="380" cy="596" r="24" fill="#ef233c"/>
+  <g><circle cx="540" cy="650" r="22" fill="#ffd60a"/><circle cx="600" cy="640" r="22" fill="#06d6a0"/><circle cx="660" cy="650" r="22" fill="#f72585"/></g>
+  <!-- coin slot -->
+  <rect x="440" y="740" width="144" height="100" rx="8" fill="#265cba"/>
+  <rect x="470" y="760" width="30" height="50" fill="#ffd60a"/><rect x="524" y="760" width="30" height="50" fill="#ffd60a"/>
+  <g fill="#22223b"><rect x="481" y="770" width="8" height="30"/><rect x="535" y="770" width="8" height="30"/></g>
+</svg>

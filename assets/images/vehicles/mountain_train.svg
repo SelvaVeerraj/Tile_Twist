@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#48a9f8"/>
+      <stop offset="1" stop-color="#d4efff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <!-- mountains -->
+  <polygon points="0,560 180,240 330,440 480,200 680,500 820,300 1024,560" fill="#6c7a9c"/>
+  <polygon points="180,240 230,330 200,320 170,360 150,300" fill="#ffffff"/>
+  <polygon points="480,200 540,300 500,290 470,330 440,270" fill="#ffffff"/>
+  <polygon points="820,300 870,380 840,370 815,400 790,350" fill="#ffffff"/>
+  <path d="M0 620 Q260 500 520 600 T1024 580 L1024 1024 L0 1024 Z" fill="#5fa84a"/>
+  <!-- pines -->
+  <g fill="#2f6b2a">
+    <polygon points="60,640 90,540 120,640"/><polygon points="110,650 140,560 170,650"/><polygon points="880,630 910,530 940,630"/>
+    <polygon points="930,640 960,550 990,640"/><polygon points="300,620 325,540 350,620"/>
+  </g>
+  <!-- valley and river -->
+  <rect y="760" width="1024" height="264" fill="#3f7f3a"/>
+  <path d="M0 960 Q260 900 512 950 T1024 930 L1024 1024 L0 1024 Z" fill="#4fa3e0"/>
+  <!-- viaduct -->
+  <rect y="690" width="1024" height="30" fill="#a0522d"/>
+  <g fill="#b5653a">
+    <path d="M0 720 L0 960 L40 960 Q40 820 128 820 Q216 820 216 960 L256 960 Q256 820 344 820 Q432 820 432 960 L472 960 Q472 820 560 820 Q648 820 648 960 L688 960 Q688 820 776 820 Q864 820 864 960 L904 960 Q904 820 992 820 L1024 820 L1024 720 Z"/>
+  </g>
+  <g stroke="#8a4a26" stroke-width="3"><line x1="0" y1="752" x2="1024" y2="752"/><line x1="0" y1="786" x2="1024" y2="786"/></g>
+  <rect y="680" width="1024" height="10" fill="#555555"/>
+  <!-- train -->
+  <g>
+    <!-- carriages -->
+    <rect x="80" y="590" width="190" height="90" rx="10" fill="#2a9d8f"/>
+    <rect x="290" y="590" width="190" height="90" rx="10" fill="#e9c46a"/>
+    <g fill="#e6f7ff">
+      <rect x="100" y="610" width="40" height="34" rx="4"/><rect x="155" y="610" width="40" height="34" rx="4"/><rect x="210" y="610" width="40" height="34" rx="4"/>
+      <rect x="310" y="610" width="40" height="34" rx="4"/><rect x="365" y="610" width="40" height="34" rx="4"/><rect x="420" y="610" width="40" height="34" rx="4"/>
+    </g>
+    <rect x="270" y="640" width="20" height="10" fill="#333333"/><rect x="480" y="640" width="20" height="10" fill="#333333"/>
+    <!-- engine -->
+    <rect x="500" y="600" width="220" height="80" rx="10" fill="#d62828"/>
+    <rect x="640" y="540" width="100" height="140" rx="10" fill="#b51f1f"/>
+    <rect x="660" y="560" width="60" height="44" rx="6" fill="#e6f7ff"/>
+    <rect x="630" y="530" width="120" height="16" rx="6" fill="#333333"/>
+    <rect x="540" y="550" width="40" height="50" fill="#333333"/>
+    <rect x="532" y="540" width="56" height="14" rx="4" fill="#222222"/>
+    <circle cx="510" cy="640" r="10" fill="#ffd166"/>
+    <polygon points="720,680 760,680 740,650 720,650" fill="#333333"/>
+    <!-- wheels -->
+    <g fill="#222222"><circle cx="120" cy="680" r="18"/><circle cx="230" cy="680" r="18"/><circle cx="330" cy="680" r="18"/><circle cx="440" cy="680" r="18"/>
+      <circle cx="550" cy="676" r="24"/><circle cx="620" cy="676" r="24"/><circle cx="700" cy="676" r="24"/></g>
+    <g fill="#999999"><circle cx="550" cy="676" r="8"/><circle cx="620" cy="676" r="8"/><circle cx="700" cy="676" r="8"/></g>
+    <line x1="550" y1="676" x2="700" y2="676" stroke="#bbbbbb" stroke-width="6"/>
+  </g>
+  <!-- smoke -->
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="560" cy="510" r="26"/><circle cx="590" cy="470" r="34"/><circle cx="640" cy="430" r="42"/><circle cx="710" cy="400" r="50"/>
+  </g>
+  <g stroke="#2b3a55" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M200 120 q14 -12 28 0 q14 -12 28 0"/><path d="M880 160 q12 -10 24 0 q12 -10 24 0"/>
+  </g>
+</svg>

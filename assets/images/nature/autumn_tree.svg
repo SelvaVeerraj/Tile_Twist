@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8ecae6"/>
+      <stop offset="1" stop-color="#fefae0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <!-- clouds -->
+  <g fill="#ffffff"><ellipse cx="160" cy="130" rx="110" ry="40"/><ellipse cx="220" cy="105" rx="70" ry="40"/><ellipse cx="860" cy="200" rx="100" ry="36"/><ellipse cx="820" cy="178" rx="60" ry="34"/></g>
+  <!-- ground -->
+  <path d="M0 800 q260 -60 520 -20 t504 -10 V1024 H0 Z" fill="#a7c957"/>
+  <path d="M0 900 q300 -40 600 0 t424 -10 V1024 H0 Z" fill="#6a994e"/>
+  <!-- leaf pile -->
+  <ellipse cx="300" cy="860" rx="150" ry="40" fill="#e85d04"/>
+  <ellipse cx="700" cy="880" rx="180" ry="44" fill="#f48c06"/>
+  <!-- trunk -->
+  <path d="M470 880 L490 520 L400 400 M495 560 L620 420 M490 600 L380 520" stroke="#6f4518" stroke-width="40" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="440,880 580,880 530,560 490,560" fill="#6f4518"/>
+  <!-- crown -->
+  <g>
+    <circle cx="340" cy="360" r="140" fill="#dc2f02"/>
+    <circle cx="520" cy="250" r="170" fill="#e85d04"/>
+    <circle cx="700" cy="350" r="150" fill="#f48c06"/>
+    <circle cx="430" cy="440" r="120" fill="#faa307"/>
+    <circle cx="620" cy="480" r="110" fill="#dc2f02"/>
+    <circle cx="260" cy="480" r="90" fill="#f48c06"/>
+    <circle cx="790" cy="480" r="80" fill="#e85d04"/>
+    <circle cx="520" cy="420" r="80" fill="#ffba08"/>
+    <circle cx="560" cy="160" r="70" fill="#ffba08"/>
+  </g>
+  <!-- falling leaves -->
+  <g>
+    <path d="M140 600 q24 -30 48 0 q-24 30 -48 0 Z" fill="#dc2f02" transform="rotate(30 164 600)"/>
+    <path d="M860 640 q24 -30 48 0 q-24 30 -48 0 Z" fill="#faa307" transform="rotate(-40 884 640)"/>
+    <path d="M180 760 q24 -30 48 0 q-24 30 -48 0 Z" fill="#e85d04" transform="rotate(60 204 760)"/>
+    <path d="M900 780 q24 -30 48 0 q-24 30 -48 0 Z" fill="#dc2f02" transform="rotate(10 924 780)"/>
+    <path d="M760 700 q24 -30 48 0 q-24 30 -48 0 Z" fill="#ffba08"/>
+  </g>
+  <!-- squirrel -->
+  <g transform="translate(820 840)">
+    <path d="M40 0 q80 -40 40 -140 q-40 -40 -60 20 q40 40 20 120 Z" fill="#bb3e03"/>
+    <ellipse cx="0" cy="0" rx="46" ry="40" fill="#ca6702"/>
+    <circle cx="-40" cy="-40" r="28" fill="#ca6702"/>
+    <polygon points="-50,-66 -40,-90 -28,-62" fill="#ca6702"/>
+    <circle cx="-50" cy="-44" r="5" fill="#1b263b"/>
+  </g>
+</svg>

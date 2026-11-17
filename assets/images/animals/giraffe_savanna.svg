@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff9e00"/>
+      <stop offset="1" stop-color="#ffe8a3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="250" cy="600" r="170" fill="#fff1c1"/>
+  <!-- birds -->
+  <path d="M700 120 q20 -20 40 0 q20 -20 40 0 M820 180 q15 -15 30 0 q15 -15 30 0 M620 200 q15 -15 30 0 q15 -15 30 0" stroke="#5c3d2e" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- acacia tree -->
+  <path d="M820 820 L830 520 M830 600 L760 520 M830 580 L910 500" stroke="#5c3d2e" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <ellipse cx="830" cy="480" rx="200" ry="60" fill="#386641"/>
+  <ellipse cx="760" cy="450" rx="110" ry="40" fill="#6a994e"/>
+  <!-- ground -->
+  <path d="M0 760 q260 -50 520 -10 t504 -20 V1024 H0 Z" fill="#dda15e"/>
+  <path d="M0 860 q300 -40 620 0 t404 0 V1024 H0 Z" fill="#bc6c25"/>
+  <g stroke="#6a994e" stroke-width="8" stroke-linecap="round"><path d="M80 900 l-10 -40 M90 900 l10 -44 M100 900 l24 -36"/><path d="M900 940 l-10 -40 M910 940 l10 -44 M920 940 l24 -36"/></g>
+  <!-- giraffe legs -->
+  <g fill="#f4a259"><rect x="330" y="640" width="36" height="260"/><rect x="390" y="650" width="36" height="250"/><rect x="560" y="640" width="36" height="260"/><rect x="620" y="630" width="36" height="270"/></g>
+  <g fill="#5c3d2e"><rect x="330" y="880" width="36" height="24"/><rect x="390" y="880" width="36" height="24"/><rect x="560" y="880" width="36" height="24"/><rect x="620" y="880" width="36" height="24"/></g>
+  <!-- body -->
+  <ellipse cx="490" cy="600" rx="210" ry="110" fill="#f4a259"/>
+  <path d="M700 590 q40 40 20 120" stroke="#f4a259" stroke-width="12" fill="none"/>
+  <!-- neck -->
+  <polygon points="560,560 650,540 680,170 610,170" fill="#f4a259"/>
+  <!-- head -->
+  <ellipse cx="660" cy="160" rx="100" ry="60" fill="#f4a259" transform="rotate(15 660 160)"/>
+  <ellipse cx="740" cy="190" rx="44" ry="34" fill="#e09f3e"/>
+  <circle cx="650" cy="140" r="14" fill="#2b1608"/><circle cx="655" cy="135" r="5" fill="#fff"/>
+  <rect x="610" y="60" width="14" height="50" fill="#f4a259"/><rect x="650" y="56" width="14" height="50" fill="#f4a259"/>
+  <circle cx="617" cy="58" r="14" fill="#5c3d2e"/><circle cx="657" cy="54" r="14" fill="#5c3d2e"/>
+  <ellipse cx="580" cy="120" rx="34" ry="16" fill="#e09f3e" transform="rotate(-30 580 120)"/>
+  <!-- spots -->
+  <g fill="#9c4a1a">
+    <polygon points="360,540 420,530 430,590 370,600"/><polygon points="460,520 520,530 510,580 450,575"/>
+    <polygon points="540,600 600,590 610,650 550,655"/><polygon points="400,620 460,615 455,670 395,665"/>
+    <polygon points="300,590 340,580 345,640 305,640"/><polygon points="620,480 650,470 655,520 625,525"/>
+    <polygon points="630,380 660,375 662,420 632,425"/><polygon points="640,280 668,275 668,320 640,325"/>
+    <polygon points="590,520 630,510 630,550 595,555"/>
+  </g>
+</svg>

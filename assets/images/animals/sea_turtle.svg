@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4cc9f0"/>
+      <stop offset="1" stop-color="#1d3f8f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sea)"/>
+  <!-- light rays -->
+  <g fill="#ffffff" opacity="0.12">
+    <polygon points="120,0 220,0 420,1024 260,1024"/>
+    <polygon points="520,0 600,0 760,1024 640,1024"/>
+    <polygon points="820,0 900,0 1024,700 1024,900"/>
+  </g>
+  <!-- bubbles -->
+  <g fill="none" stroke="#e0fbfc" stroke-width="6" opacity="0.8">
+    <circle cx="150" cy="200" r="22"/><circle cx="190" cy="140" r="14"/><circle cx="170" cy="90" r="9"/>
+    <circle cx="880" cy="320" r="20"/><circle cx="850" cy="260" r="12"/>
+    <circle cx="760" cy="880" r="16"/><circle cx="90" cy="620" r="18"/>
+  </g>
+  <!-- sea floor -->
+  <path d="M0 900 q150 -60 300 -10 t320 0 t404 -20 V1024 H0 Z" fill="#f2cc8f"/>
+  <!-- seaweed -->
+  <path d="M80 1024 q-40 -120 10 -220 q40 -90 -10 -180" stroke="#2a9d8f" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <path d="M140 1024 q40 -100 0 -200" stroke="#52b788" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <path d="M930 1024 q50 -140 -10 -260 q-40 -80 20 -170" stroke="#2a9d8f" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <!-- starfish -->
+  <polygon points="620,930 636,968 678,970 646,994 658,1024 620,1004 582,1024 594,994 562,970 604,968" fill="#ef476f"/>
+  <!-- turtle flippers -->
+  <ellipse cx="330" cy="370" rx="150" ry="55" fill="#52b788" transform="rotate(-35 330 370)"/>
+  <ellipse cx="700" cy="370" rx="150" ry="55" fill="#52b788" transform="rotate(35 700 370)"/>
+  <ellipse cx="350" cy="700" rx="100" ry="42" fill="#52b788" transform="rotate(35 350 700)"/>
+  <ellipse cx="680" cy="700" rx="100" ry="42" fill="#52b788" transform="rotate(-35 680 700)"/>
+  <!-- head -->
+  <ellipse cx="512" cy="230" rx="90" ry="100" fill="#74c69d"/>
+  <circle cx="470" cy="210" r="16" fill="#1b263b"/><circle cx="554" cy="210" r="16" fill="#1b263b"/>
+  <circle cx="476" cy="204" r="5" fill="#fff"/><circle cx="560" cy="204" r="5" fill="#fff"/>
+  <path d="M480 262 q32 22 64 0" stroke="#1b263b" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- shell -->
+  <ellipse cx="512" cy="540" rx="240" ry="270" fill="#6b4226"/>
+  <ellipse cx="512" cy="540" rx="210" ry="240" fill="#a0522d"/>
+  <g fill="#d4a373" stroke="#6b4226" stroke-width="8">
+    <polygon points="512,400 580,440 580,520 512,560 444,520 444,440"/>
+    <polygon points="512,560 580,600 580,680 512,720 444,680 444,600"/>
+    <polygon points="380,460 444,440 444,520 400,580 340,550"/>
+    <polygon points="644,460 580,440 580,520 624,580 684,550"/>
+    <polygon points="340,550 400,580 444,600 444,680 370,660"/>
+    <polygon points="684,550 624,580 580,600 580,680 654,660"/>
+  </g>
+</svg>

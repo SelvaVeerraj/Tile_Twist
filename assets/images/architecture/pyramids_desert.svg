@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00a6fb"/>
+      <stop offset="1" stop-color="#ffe5b4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="180" cy="180" r="100" fill="#fff3b0"/>
+  <circle cx="180" cy="180" r="70" fill="#ffd60a"/>
+  <!-- far dunes -->
+  <path d="M0 640 q200 -60 400 -20 t624 -30 V1024 H0 Z" fill="#f6bd60"/>
+  <!-- pyramids -->
+  <polygon points="250,640 500,280 750,640" fill="#e9c46a"/>
+  <polygon points="500,280 750,640 560,640" fill="#d4a373"/>
+  <polygon points="640,640 820,400 1000,640" fill="#e9c46a"/>
+  <polygon points="820,400 1000,640 870,640" fill="#d4a373"/>
+  <polygon points="60,640 200,450 340,640" fill="#e9c46a"/>
+  <polygon points="200,450 340,640 240,640" fill="#d4a373"/>
+  <!-- block lines -->
+  <g stroke="#bc8a5f" stroke-width="5">
+    <line x1="425" y1="390" x2="575" y2="390"/><line x1="375" y1="460" x2="625" y2="460"/><line x1="325" y1="530" x2="675" y2="530"/><line x1="285" y1="590" x2="715" y2="590"/>
+    <line x1="770" y1="470" x2="870" y2="470"/><line x1="720" y1="540" x2="920" y2="540"/>
+  </g>
+  <!-- near dunes -->
+  <path d="M0 720 q260 -70 520 -20 t504 -40 V1024 H0 Z" fill="#f4a261"/>
+  <path d="M0 860 q300 -80 600 -20 t424 -30 V1024 H0 Z" fill="#e76f51"/>
+  <!-- camel -->
+  <g transform="translate(380 780)" fill="#9c6644">
+    <ellipse cx="0" cy="0" rx="110" ry="50"/>
+    <ellipse cx="-30" cy="-46" rx="44" ry="40"/><ellipse cx="40" cy="-40" rx="40" ry="34"/>
+    <path d="M100 -10 q40 -40 30 -100 l26 0 q16 70 -30 120 Z"/>
+    <ellipse cx="150" cy="-112" rx="36" ry="18"/>
+    <rect x="-80" y="30" width="18" height="90"/><rect x="-40" y="30" width="18" height="90"/>
+    <rect x="40" y="30" width="18" height="90"/><rect x="74" y="30" width="18" height="90"/>
+  </g>
+  <circle cx="164" cy="-116" r="4" fill="#22223b" transform="translate(380 780)"/>
+  <!-- palms / oasis -->
+  <ellipse cx="860" cy="880" rx="140" ry="36" fill="#0096c7"/>
+  <path d="M860 870 q-10 -120 30 -200" stroke="#6f4518" stroke-width="16" fill="none"/>
+  <g fill="#2d6a4f">
+    <path d="M890 670 q-80 -20 -130 30 q60 -30 130 -30 Z"/><path d="M890 670 q80 -40 130 20 q-70 -30 -130 -20 Z"/>
+    <path d="M890 670 q-30 -70 -100 -80 q70 20 100 80 Z"/><path d="M890 670 q40 -80 110 -70 q-70 20 -110 70 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff7e5f"/>
+      <stop offset="0.55" stop-color="#feb47b"/>
+      <stop offset="1" stop-color="#ffe2a8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="700" cy="300" r="130" fill="#fff3c4"/>
+  <circle cx="700" cy="300" r="100" fill="#ffd95c"/>
+  <g stroke="#7a3b2e" stroke-width="5" fill="none" stroke-linecap="round">
+    <path d="M150 170 q15 -14 30 0 q15 -14 30 0"/>
+    <path d="M240 220 q12 -11 24 0 q12 -11 24 0"/>
+    <path d="M880 140 q12 -11 24 0 q12 -11 24 0"/>
+  </g>
+  <!-- mesas -->
+  <polygon points="40,520 90,400 260,400 300,520" fill="#b9573f"/>
+  <polygon points="90,400 260,400 255,420 95,420" fill="#d77356"/>
+  <polygon points="780,540 820,450 940,450 990,540" fill="#a84c38"/>
+  <!-- dunes -->
+  <path d="M0 560 Q250 430 520 540 T1024 520 L1024 1024 L0 1024 Z" fill="#f2b66d"/>
+  <path d="M0 680 Q300 560 600 660 T1024 640 L1024 1024 L0 1024 Z" fill="#e89a4f"/>
+  <path d="M0 820 Q260 720 560 800 T1024 780 L1024 1024 L0 1024 Z" fill="#d8823c"/>
+  <path d="M0 940 Q300 880 640 930 T1024 920 L1024 1024 L0 1024 Z" fill="#c26d2c"/>
+  <g stroke="#fff1d0" stroke-width="4" fill="none" opacity="0.5" stroke-linecap="round">
+    <path d="M100 640 q60 -20 120 0"/><path d="M640 700 q60 -20 120 0"/><path d="M300 860 q60 -20 120 0"/>
+    <path d="M760 860 q50 -16 100 0"/>
+  </g>
+  <!-- cacti -->
+  <g fill="#2f7d4f">
+    <rect x="160" y="560" width="44" height="240" rx="22"/>
+    <rect x="110" y="620" width="30" height="100" rx="15"/>
+    <rect x="110" y="700" width="70" height="28" rx="14"/>
+    <rect x="224" y="590" width="30" height="110" rx="15"/>
+    <rect x="190" y="680" width="64" height="28" rx="14"/>
+    <rect x="830" y="640" width="36" height="190" rx="18"/>
+    <rect x="790" y="690" width="26" height="80" rx="13"/>
+    <rect x="790" y="752" width="60" height="24" rx="12"/>
+    <rect x="882" y="670" width="26" height="90" rx="13"/>
+    <rect x="850" y="740" width="58" height="24" rx="12"/>
+    <rect x="520" y="760" width="26" height="110" rx="13"/>
+  </g>
+  <g fill="#ff6f91"><circle cx="182" cy="560" r="12"/><circle cx="848" cy="640" r="10"/><circle cx="533" cy="760" r="9"/></g>
+  <!-- rocks -->
+  <ellipse cx="420" cy="905" rx="70" ry="30" fill="#8b4a2b"/>
+  <ellipse cx="460" cy="895" rx="40" ry="22" fill="#a65c35"/>
+  <ellipse cx="680" cy="975" rx="50" ry="20" fill="#8b4a2b"/>
+  <!-- camel caravan silhouette -->
+  <g fill="#6b3524">
+    <path d="M560 610 q20 -40 40 -8 q16 -30 36 0 l12 -4 q10 -14 18 -2 l-8 12 l-10 2 l0 30 l-8 0 l0 -24 l-30 2 l0 22 l-8 0 l0 -22 l-24 0 l0 22 l-8 0 Z"/>
+    <path d="M660 600 q20 -40 40 -8 q16 -30 36 0 l12 -4 q10 -14 18 -2 l-8 12 l-10 2 l0 30 l-8 0 l0 -24 l-30 2 l0 22 l-8 0 l0 -22 l-24 0 l0 22 l-8 0 Z"/>
+  </g>
+</svg>

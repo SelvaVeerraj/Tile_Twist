@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0077b6"/>
+      <stop offset="1" stop-color="#03045e"/>
+    </linearGradient>
+    <radialGradient id="beam" cx="0" cy="0.5" r="1">
+      <stop offset="0" stop-color="#fff3b0" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#fff3b0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sea)"/>
+  <!-- seabed -->
+  <path d="M0 880 q200 -60 400 -20 t624 -10 V1024 H0 Z" fill="#3a0ca3"/>
+  <g fill="#480ca8"><ellipse cx="160" cy="900" rx="90" ry="40"/><ellipse cx="860" cy="920" rx="120" ry="46"/></g>
+  <!-- glowing plants -->
+  <path d="M100 1024 q-30 -80 10 -160 q30 -60 -10 -120" stroke="#4cc9f0" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M940 1024 q30 -100 -10 -180" stroke="#f72585" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <g fill="#4cc9f0"><circle cx="110" cy="740" r="14"/><circle cx="96" cy="820" r="10"/></g>
+  <g fill="#f72585"><circle cx="930" cy="844" r="14"/></g>
+  <!-- jellyfish -->
+  <g transform="translate(180 260)">
+    <path d="M-70 0 a70 60 0 0 1 140 0 q-20 14 -35 0 q-17 14 -35 0 q-17 14 -35 0 q-17 14 -35 0 Z" fill="#f15bb5" opacity="0.9"/>
+    <g stroke="#f15bb5" stroke-width="6" fill="none" opacity="0.8"><path d="M-50 6 q-10 50 10 100"/><path d="M-16 8 q10 60 -10 120"/><path d="M18 8 q-10 50 10 110"/><path d="M50 6 q14 50 -6 90"/></g>
+  </g>
+  <g transform="translate(880 200) scale(0.6)">
+    <path d="M-70 0 a70 60 0 0 1 140 0 q-20 14 -35 0 q-17 14 -35 0 q-17 14 -35 0 q-17 14 -35 0 Z" fill="#9b5de5"/>
+    <g stroke="#9b5de5" stroke-width="8" fill="none"><path d="M-40 6 q-10 50 10 100"/><path d="M0 8 q10 60 -10 120"/><path d="M40 6 q14 50 -6 90"/></g>
+  </g>
+  <!-- headlight beam -->
+  <polygon points="760,520 1024,380 1024,700" fill="url(#beam)"/>
+  <!-- submarine -->
+  <ellipse cx="480" cy="540" rx="300" ry="130" fill="#ffd60a"/>
+  <rect x="380" y="340" width="160" height="110" rx="30" fill="#ffc300"/>
+  <rect x="460" y="270" width="16" height="80" fill="#6c757d"/><rect x="460" y="270" width="60" height="16" fill="#6c757d"/>
+  <path d="M190 540 l-90 -90 v180 Z" fill="#f77f00"/>
+  <rect x="80" y="520" width="60" height="40" fill="#495057"/>
+  <g fill="#48cae4" stroke="#6c757d" stroke-width="12">
+    <circle cx="380" cy="540" r="44"/><circle cx="500" cy="540" r="44"/><circle cx="620" cy="540" r="44"/>
+  </g>
+  <g fill="#ffffff" opacity="0.7"><circle cx="366" cy="526" r="12"/><circle cx="486" cy="526" r="12"/><circle cx="606" cy="526" r="12"/></g>
+  <circle cx="770" cy="520" r="22" fill="#fff3b0"/>
+  <rect x="300" y="640" width="360" height="20" rx="10" fill="#f77f00"/>
+  <!-- bubbles -->
+  <g fill="none" stroke="#caf0f8" stroke-width="5"><circle cx="70" cy="460" r="14"/><circle cx="50" cy="400" r="10"/><circle cx="76" cy="350" r="7"/><circle cx="500" cy="230" r="10"/><circle cx="520" cy="180" r="6"/></g>
+  <!-- fish -->
+  <g fill="#ff9f1c"><ellipse cx="880" cy="520" rx="34" ry="16"/><polygon points="910,520 934,504 934,536"/><ellipse cx="840" cy="600" rx="28" ry="13"/><polygon points="864,600 884,588 884,612"/></g>
+</svg>

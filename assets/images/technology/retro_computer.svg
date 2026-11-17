@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffafcc"/>
+      <stop offset="1" stop-color="#cdb4db"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#wall)"/>
+  <!-- wall shelf & poster -->
+  <rect x="60" y="80" width="220" height="280" rx="12" fill="#3a0ca3"/>
+  <circle cx="170" cy="200" r="70" fill="#f72585"/>
+  <polygon points="60,360 170,240 280,360" fill="#4cc9f0"/>
+  <rect x="720" y="220" width="260" height="18" fill="#9c6644"/>
+  <g><rect x="740" y="140" width="40" height="80" fill="#ef476f"/><rect x="786" y="150" width="34" height="70" fill="#06d6a0"/><rect x="826" y="130" width="44" height="90" fill="#118ab2"/></g>
+  <g><rect x="900" y="170" width="50" height="50" rx="8" fill="#9c6644"/><path d="M910 170 q15 -60 30 0" fill="#52b788"/><path d="M925 170 q-30 -40 -20 -70 q20 20 20 70 Z" fill="#2d6a4f"/></g>
+  <!-- desk -->
+  <rect y="760" width="1024" height="264" fill="#9c6644"/>
+  <rect y="750" width="1024" height="20" fill="#bc8a5f"/>
+  <!-- monitor -->
+  <rect x="270" y="260" width="480" height="420" rx="40" fill="#e9e4d8"/>
+  <rect x="310" y="300" width="400" height="300" rx="20" fill="#14213d"/>
+  <!-- screen content -->
+  <g fill="#80ffdb">
+    <rect x="340" y="330" width="200" height="16"/><rect x="340" y="364" width="280" height="16"/><rect x="340" y="398" width="140" height="16"/>
+    <rect x="340" y="432" width="240" height="16"/><rect x="340" y="466" width="180" height="16"/>
+    <rect x="340" y="520" width="24" height="30"/>
+  </g>
+  <g fill="#ffd60a"><rect x="560" y="430" width="120" height="120" rx="8"/></g>
+  <g fill="#14213d"><circle cx="595" cy="470" r="10"/><circle cx="645" cy="470" r="10"/><path d="M590 500 q30 30 60 0" stroke="#14213d" stroke-width="8" fill="none"/></g>
+  <rect x="310" y="620" width="120" height="20" rx="6" fill="#adb5bd"/>
+  <circle cx="680" cy="630" r="14" fill="#06d6a0"/>
+  <!-- stand -->
+  <rect x="440" y="680" width="140" height="50" fill="#d6ccc2"/>
+  <rect x="380" y="720" width="260" height="40" rx="10" fill="#e9e4d8"/>
+  <!-- keyboard -->
+  <path d="M220 820 h580 l40 120 h-660 Z" fill="#e9e4d8"/>
+  <g fill="#adb5bd">
+    <rect x="250" y="840" width="50" height="26" rx="4"/><rect x="310" y="840" width="50" height="26" rx="4"/><rect x="370" y="840" width="50" height="26" rx="4"/><rect x="430" y="840" width="50" height="26" rx="4"/><rect x="490" y="840" width="50" height="26" rx="4"/><rect x="550" y="840" width="50" height="26" rx="4"/><rect x="610" y="840" width="50" height="26" rx="4"/><rect x="670" y="840" width="50" height="26" rx="4"/><rect x="730" y="840" width="50" height="26" rx="4"/>
+    <rect x="240" y="880" width="56" height="28" rx="4"/><rect x="306" y="880" width="56" height="28" rx="4"/><rect x="372" y="880" width="280" height="28" rx="4"/><rect x="662" y="880" width="56" height="28" rx="4"/><rect x="728" y="880" width="66" height="28" rx="4"/>
+  </g>
+  <rect x="740" y="840" width="40" height="26" rx="4" fill="#ef476f"/>
+  <!-- mouse & floppy disks -->
+  <ellipse cx="900" cy="880" rx="44" ry="60" fill="#e9e4d8"/>
+  <line x1="900" y1="820" x2="900" y2="860" stroke="#adb5bd" stroke-width="6"/>
+  <path d="M900 820 q0 -40 -60 -60" stroke="#6c757d" stroke-width="6" fill="none"/>
+  <g><rect x="60" y="820" width="110" height="110" rx="6" fill="#118ab2"/><rect x="85" y="820" width="60" height="36" fill="#adb5bd"/><rect x="80" y="880" width="70" height="40" fill="#fefae0"/></g>
+  <g transform="rotate(-12 120 960)"><rect x="80" y="900" width="110" height="110" rx="6" fill="#ef476f"/><rect x="105" y="900" width="60" height="36" fill="#adb5bd"/></g>
+</svg>

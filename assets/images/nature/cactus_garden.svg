@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7b2cbf"/>
+      <stop offset="0.55" stop-color="#ff6d00"/>
+      <stop offset="1" stop-color="#ffd166"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="512" cy="620" r="200" fill="#ffe8a3"/>
+  <!-- mesas -->
+  <polygon points="0,640 60,520 260,520 300,640" fill="#9d4edd"/>
+  <polygon points="700,640 760,480 960,480 1024,560 1024,640" fill="#9d4edd"/>
+  <!-- ground -->
+  <rect y="640" width="1024" height="384" fill="#e9a35b"/>
+  <path d="M0 760 q260 -40 520 0 t504 0 V1024 H0 Z" fill="#d4843f"/>
+  <g fill="#a0522d"><ellipse cx="140" cy="900" rx="40" ry="18"/><ellipse cx="880" cy="960" rx="50" ry="20"/><ellipse cx="620" cy="980" rx="30" ry="14"/></g>
+  <!-- saguaro -->
+  <g fill="#2d6a4f">
+    <rect x="440" y="300" width="120" height="560" rx="60"/>
+    <path d="M440 600 h-80 a40 40 0 0 1 -40 -40 v-140 a40 40 0 0 1 80 0 v100 h40 Z"/>
+    <path d="M560 520 h80 a40 40 0 0 0 40 -40 v-120 a40 40 0 0 0 -80 0 v80 h-40 Z"/>
+  </g>
+  <g stroke="#40916c" stroke-width="10"><line x1="480" y1="330" x2="480" y2="850"/><line x1="520" y1="330" x2="520" y2="850"/></g>
+  <g fill="#ff4d6d"><circle cx="500" cy="296" r="24"/><circle cx="360" cy="380" r="18"/><circle cx="640" cy="320" r="18"/></g>
+  <!-- barrel cactus -->
+  <ellipse cx="200" cy="820" rx="110" ry="100" fill="#52b788"/>
+  <g stroke="#2d6a4f" stroke-width="8" fill="none"><path d="M200 720 v200 M150 730 q-30 90 0 180 M250 730 q30 90 0 180"/></g>
+  <g fill="#ffd166"><circle cx="180" cy="722" r="18"/><circle cx="220" cy="722" r="18"/><circle cx="200" cy="708" r="18"/></g>
+  <!-- prickly pear -->
+  <g fill="#74c69d">
+    <ellipse cx="820" cy="860" rx="70" ry="90"/>
+    <ellipse cx="760" cy="740" rx="56" ry="72" transform="rotate(-25 760 740)"/>
+    <ellipse cx="880" cy="730" rx="56" ry="72" transform="rotate(25 880 730)"/>
+  </g>
+  <g fill="#c9184a"><ellipse cx="740" cy="670" rx="18" ry="22"/><ellipse cx="900" cy="660" rx="18" ry="22"/></g>
+  <g fill="#1b4332"><circle cx="800" cy="840" r="5"/><circle cx="840" cy="880" r="5"/><circle cx="820" cy="910" r="5"/><circle cx="760" cy="740" r="5"/><circle cx="880" cy="730" r="5"/></g>
+  <!-- stars -->
+  <g fill="#ffffff"><circle cx="100" cy="90" r="5"/><circle cx="300" cy="150" r="4"/><circle cx="720" cy="100" r="5"/><circle cx="900" cy="200" r="4"/><circle cx="520" cy="60" r="3"/></g>
+</svg>

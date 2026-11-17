@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a2d2ff"/>
+      <stop offset="1" stop-color="#e0f2fe"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <!-- snowflakes -->
+  <g fill="#ffffff"><circle cx="100" cy="100" r="10"/><circle cx="240" cy="200" r="7"/><circle cx="880" cy="90" r="11"/><circle cx="760" cy="180" r="7"/><circle cx="520" cy="70" r="8"/><circle cx="960" cy="300" r="9"/><circle cx="60" cy="380" r="8"/></g>
+  <!-- distant icebergs -->
+  <polygon points="0,560 120,380 210,470 300,340 420,560" fill="#cde8f6"/>
+  <polygon points="620,560 760,300 860,420 940,360 1024,460 1024,560" fill="#bde0f3"/>
+  <!-- sea -->
+  <rect y="560" width="1024" height="464" fill="#1e6091"/>
+  <g stroke="#52b2cf" stroke-width="8" stroke-linecap="round"><line x1="60" y1="640" x2="180" y2="640"/><line x1="820" y1="620" x2="960" y2="620"/><line x1="100" y1="960" x2="260" y2="960"/><line x1="780" y1="980" x2="940" y2="980"/></g>
+  <!-- main ice floe -->
+  <polygon points="140,700 260,560 780,560 900,700 820,840 220,840" fill="#ffffff"/>
+  <polygon points="220,840 820,840 900,700 880,760 780,900 260,900 140,700" fill="#a9d6e5"/>
+  <!-- fish -->
+  <g transform="translate(140 940)"><ellipse rx="50" ry="22" fill="#ff9f1c"/><polygon points="44,0 84,-24 84,24" fill="#ff9f1c"/><circle cx="-26" cy="-4" r="6" fill="#1b263b"/></g>
+  <!-- big penguin -->
+  <g transform="translate(430 330)">
+    <ellipse cx="0" cy="250" rx="170" ry="230" fill="#22223b"/>
+    <ellipse cx="0" cy="290" rx="115" ry="180" fill="#ffffff"/>
+    <circle cx="0" cy="40" r="120" fill="#22223b"/>
+    <ellipse cx="0" cy="70" rx="80" ry="70" fill="#ffffff"/>
+    <circle cx="-34" cy="50" r="14" fill="#22223b"/><circle cx="34" cy="50" r="14" fill="#22223b"/>
+    <circle cx="-30" cy="45" r="5" fill="#fff"/><circle cx="38" cy="45" r="5" fill="#fff"/>
+    <polygon points="-24,82 24,82 0,116" fill="#ff9f1c"/>
+    <circle cx="-58" cy="96" r="14" fill="#ffafcc"/><circle cx="58" cy="96" r="14" fill="#ffafcc"/>
+    <ellipse cx="-170" cy="250" rx="40" ry="110" fill="#22223b" transform="rotate(20 -170 250)"/>
+    <ellipse cx="170" cy="250" rx="40" ry="110" fill="#22223b" transform="rotate(-20 170 250)"/>
+    <ellipse cx="-60" cy="480" rx="56" ry="22" fill="#ff9f1c"/><ellipse cx="60" cy="480" rx="56" ry="22" fill="#ff9f1c"/>
+    <!-- scarf -->
+    <rect x="-110" y="140" width="220" height="36" rx="18" fill="#e63946"/>
+    <rect x="50" y="160" width="40" height="110" rx="16" fill="#e63946"/>
+  </g>
+  <!-- baby penguin -->
+  <g transform="translate(720 600) scale(0.45)">
+    <ellipse cx="0" cy="250" rx="170" ry="230" fill="#6c757d"/>
+    <ellipse cx="0" cy="290" rx="115" ry="180" fill="#f1f3f5"/>
+    <circle cx="0" cy="40" r="120" fill="#22223b"/>
+    <ellipse cx="0" cy="70" rx="80" ry="70" fill="#ffffff"/>
+    <circle cx="-34" cy="50" r="16" fill="#22223b"/><circle cx="34" cy="50" r="16" fill="#22223b"/>
+    <polygon points="-24,82 24,82 0,116" fill="#ff9f1c"/>
+    <ellipse cx="-60" cy="480" rx="56" ry="22" fill="#ff9f1c"/><ellipse cx="60" cy="480" rx="56" ry="22" fill="#ff9f1c"/>
+  </g>
+</svg>

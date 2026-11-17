@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3a0ca3"/>
+      <stop offset="1" stop-color="#4cc9f0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="780" cy="200" r="90" fill="#fefae0"/>
+  <circle cx="815" cy="180" r="80" fill="#5a3bc4" opacity="0.9"/>
+  <!-- stars -->
+  <g fill="#ffffff"><circle cx="100" cy="80" r="5"/><circle cx="220" cy="160" r="4"/><circle cx="380" cy="90" r="6"/><circle cx="520" cy="200" r="4"/><circle cx="640" cy="70" r="5"/><circle cx="920" cy="340" r="4"/><circle cx="160" cy="300" r="4"/></g>
+  <!-- far hills -->
+  <path d="M0 620 q200 -120 400 -40 t624 -80 V1024 H0 Z" fill="#bde0fe"/>
+  <!-- snow ground -->
+  <path d="M0 780 q260 -60 520 -20 t504 0 V1024 H0 Z" fill="#ffffff"/>
+  <path d="M0 900 q300 -30 600 10 t424 -10 V1024 H0 Z" fill="#e2eafc"/>
+  <!-- pines -->
+  <g>
+    <g transform="translate(200 820)">
+      <rect x="-18" y="-40" width="36" height="60" fill="#6f4518"/>
+      <polygon points="0,-460 130,-260 -130,-260" fill="#2d6a4f"/>
+      <polygon points="0,-360 170,-130 -170,-130" fill="#1b4332"/>
+      <polygon points="0,-240 200,-30 -200,-30" fill="#2d6a4f"/>
+      <path d="M-60 -370 l60 -90 l60 90 q-30 -20 -60 0 q-30 -20 -60 0 Z" fill="#ffffff"/>
+      <path d="M-100 -250 q50 -20 100 0 q50 -20 100 0 l-30 -40 h-140 Z" fill="#ffffff"/>
+    </g>
+    <g transform="translate(560 860) scale(1.2)">
+      <rect x="-18" y="-40" width="36" height="60" fill="#6f4518"/>
+      <polygon points="0,-460 130,-260 -130,-260" fill="#1b4332"/>
+      <polygon points="0,-360 170,-130 -170,-130" fill="#2d6a4f"/>
+      <polygon points="0,-240 200,-30 -200,-30" fill="#1b4332"/>
+      <path d="M-60 -370 l60 -90 l60 90 q-30 -20 -60 0 q-30 -20 -60 0 Z" fill="#ffffff"/>
+      <path d="M-120 -140 q60 -20 120 0 q60 -20 120 0 l-40 -50 h-160 Z" fill="#ffffff"/>
+    </g>
+    <g transform="translate(880 800) scale(0.8)">
+      <rect x="-18" y="-40" width="36" height="60" fill="#6f4518"/>
+      <polygon points="0,-460 130,-260 -130,-260" fill="#2d6a4f"/>
+      <polygon points="0,-360 170,-130 -170,-130" fill="#1b4332"/>
+      <polygon points="0,-240 200,-30 -200,-30" fill="#2d6a4f"/>
+      <path d="M-60 -370 l60 -90 l60 90 q-30 -20 -60 0 q-30 -20 -60 0 Z" fill="#ffffff"/>
+    </g>
+  </g>
+  <!-- snowman -->
+  <g transform="translate(360 900)">
+    <circle cx="0" cy="0" r="70" fill="#ffffff" stroke="#bde0fe" stroke-width="6"/>
+    <circle cx="0" cy="-100" r="48" fill="#ffffff" stroke="#bde0fe" stroke-width="6"/>
+    <circle cx="-16" cy="-108" r="6" fill="#22223b"/><circle cx="16" cy="-108" r="6" fill="#22223b"/>
+    <polygon points="0,-98 40,-92 0,-86" fill="#ff7b00"/>
+    <rect x="-46" y="-64" width="92" height="16" rx="8" fill="#e63946"/>
+  </g>
+  <!-- falling snow -->
+  <g fill="#ffffff" opacity="0.9"><circle cx="60" cy="460" r="8"/><circle cx="300" cy="380" r="7"/><circle cx="440" cy="520" r="9"/><circle cx="700" cy="420" r="7"/><circle cx="980" cy="540" r="8"/><circle cx="760" cy="600" r="6"/></g>
+</svg>

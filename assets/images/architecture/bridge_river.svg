@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f15bb5"/>
+      <stop offset="0.6" stop-color="#fee440"/>
+      <stop offset="1" stop-color="#ffd6a5"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9b5de5"/>
+      <stop offset="1" stop-color="#00bbf9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" fill="url(#sky)"/>
+  <circle cx="512" cy="500" r="140" fill="#fff3b0"/>
+  <!-- distant skyline -->
+  <g fill="#9b5de5" opacity="0.6">
+    <rect x="0" y="440" width="70" height="160"/><rect x="80" y="400" width="60" height="200"/><rect x="150" y="460" width="80" height="140"/>
+    <rect x="800" y="420" width="70" height="180"/><rect x="880" y="380" width="50" height="220"/><rect x="940" y="450" width="84" height="150"/>
+  </g>
+  <!-- water -->
+  <rect y="600" width="1024" height="424" fill="url(#water)"/>
+  <g stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.6"><line x1="400" y1="700" x2="620" y2="700"/><line x1="440" y1="760" x2="580" y2="760"/><line x1="80" y1="900" x2="240" y2="900"/><line x1="760" y1="940" x2="940" y2="940"/></g>
+  <!-- suspension bridge towers -->
+  <g fill="#e63946">
+    <rect x="230" y="200" width="40" height="440"/><rect x="310" y="200" width="40" height="440"/>
+    <rect x="230" y="260" width="120" height="24"/><rect x="230" y="380" width="120" height="24"/>
+    <rect x="674" y="200" width="40" height="440"/><rect x="754" y="200" width="40" height="440"/>
+    <rect x="674" y="260" width="120" height="24"/><rect x="674" y="380" width="120" height="24"/>
+  </g>
+  <!-- cables -->
+  <g fill="none" stroke="#c1121f" stroke-width="10">
+    <path d="M-40 520 q160 40 330 -310"/>
+    <path d="M290 210 q222 360 444 0"/>
+    <path d="M734 210 q170 350 330 310"/>
+  </g>
+  <g stroke="#c1121f" stroke-width="4">
+    <line x1="360" y1="330" x2="360" y2="540"/><line x1="420" y1="400" x2="420" y2="540"/><line x1="480" y1="430" x2="480" y2="540"/><line x1="540" y1="430" x2="540" y2="540"/><line x1="600" y1="400" x2="600" y2="540"/><line x1="660" y1="330" x2="660" y2="540"/>
+    <line x1="100" y1="500" x2="100" y2="540"/><line x1="180" y1="440" x2="180" y2="540"/>
+    <line x1="840" y1="440" x2="840" y2="540"/><line x1="920" y1="490" x2="920" y2="540"/>
+  </g>
+  <!-- deck -->
+  <rect x="0" y="540" width="1024" height="40" fill="#9d0208"/>
+  <rect x="0" y="530" width="1024" height="12" fill="#e63946"/>
+  <!-- cars on deck -->
+  <g><rect x="140" y="510" width="60" height="26" rx="8" fill="#118ab2"/><rect x="560" y="510" width="60" height="26" rx="8" fill="#ffd166"/><rect x="860" y="510" width="60" height="26" rx="8" fill="#06d6a0"/></g>
+  <!-- reflections -->
+  <g fill="#e63946" opacity="0.35"><rect x="230" y="600" width="40" height="260"/><rect x="310" y="600" width="40" height="260"/><rect x="674" y="600" width="40" height="260"/><rect x="754" y="600" width="40" height="260"/></g>
+  <!-- sailboat -->
+  <polygon points="430,880 590,880 560,920 460,920" fill="#ffffff"/>
+  <polygon points="510,880 510,740 580,870" fill="#fee440"/>
+  <polygon points="500,880 500,770 450,870" fill="#ffffff"/>
+</svg>
