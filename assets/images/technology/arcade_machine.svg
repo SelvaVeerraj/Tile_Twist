@@ -13,11 +13,15 @@
     <line x1="512" y1="760" x2="512" y2="1024"/><line x1="400" y1="760" x2="200" y2="1024"/><line x1="300" y1="760" x2="-100" y2="1024"/><line x1="624" y1="760" x2="824" y2="1024"/><line x1="724" y1="760" x2="1124" y2="1024"/>
   </g>
   <!-- neon wall signs -->
-  <g fill="none" stroke-width="12" stroke-linecap="round">
-    <path d="M80 140 l40 -60 l40 60 Z" stroke="#4cc9f0"/>
-    <circle cx="900" cy="120" r="44" stroke="#ffd60a"/>
-    <path d="M60 420 h80 M100 380 v80" stroke="#80ffdb"/>
-    <path d="M860 380 l60 60 M920 380 l-60 60" stroke="#f72585"/>
+  <g fill="none" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <!-- neon star -->
+    <polygon points="120,60 134,98 174,100 142,124 154,162 120,140 86,162 98,124 66,100 106,98" stroke="#4cc9f0"/>
+    <!-- neon crescent moon -->
+    <path d="M920 76 a50 50 0 1 0 10 88 a40 40 0 1 1 -10 -88 Z" stroke="#ffd60a"/>
+    <!-- neon lightning bolt -->
+    <polygon points="112,370 72,430 104,430 88,480 136,412 104,412" stroke="#80ffdb"/>
+    <!-- neon heart -->
+    <path d="M890 460 l-40 -40 a24 24 0 0 1 40 -28 a24 24 0 0 1 40 28 Z" stroke="#f72585"/>
   </g>
   <g fill="#ffffff"><circle cx="240" cy="80" r="3"/><circle cx="780" cy="260" r="3"/><circle cx="160" cy="600" r="3"/><circle cx="880" cy="620" r="3"/></g>
   <!-- cabinet -->
@@ -30,15 +34,21 @@
   <!-- screen -->
   <rect x="330" y="270" width="364" height="300" rx="16" fill="#111"/>
   <rect x="350" y="290" width="324" height="260" rx="10" fill="#03045e"/>
-  <!-- maze game on screen -->
-  <g stroke="#4cc9f0" stroke-width="8" fill="none">
-    <rect x="370" y="310" width="284" height="220" rx="8"/>
-    <path d="M420 350 h80 M560 350 h60 M420 480 h60 M540 480 h80 M512 380 v60"/>
-  </g>
-  <g fill="#ffd60a"><circle cx="400" cy="420" r="24"/></g>
-  <polygon points="400,420 424,404 424,436" fill="#03045e"/>
-  <g fill="#ffffff"><circle cx="450" cy="420" r="6"/><circle cx="480" cy="420" r="6"/><circle cx="560" cy="420" r="6"/><circle cx="590" cy="420" r="6"/></g>
-  <path d="M600 400 a20 20 0 0 1 40 0 v30 l-10 -8 l-10 8 l-10 -8 l-10 8 Z" fill="#ef233c"/>
+  <!-- space shooter game on screen (original art) -->
+  <g fill="#ffffff"><circle cx="380" cy="310" r="3"/><circle cx="450" cy="350" r="2"/><circle cx="640" cy="320" r="3"/><circle cx="600" cy="400" r="2"/><circle cx="400" cy="460" r="2"/><circle cx="660" cy="500" r="3"/></g>
+  <!-- planets to collect -->
+  <circle cx="420" cy="350" r="22" fill="#f72585"/>
+  <ellipse cx="420" cy="350" rx="36" ry="8" fill="none" stroke="#ffd60a" stroke-width="5"/>
+  <circle cx="600" cy="340" r="18" fill="#06d6a0"/>
+  <circle cx="520" cy="320" r="12" fill="#ff9e00"/>
+  <!-- laser shots -->
+  <g fill="#80ffdb"><rect x="508" y="400" width="8" height="26" rx="4"/><rect x="508" y="360" width="8" height="26" rx="4"/></g>
+  <!-- player rocket -->
+  <polygon points="512,440 540,510 512,498 484,510" fill="#4cc9f0"/>
+  <circle cx="512" cy="472" r="8" fill="#ffffff"/>
+  <polygon points="500,504 512,530 524,504" fill="#ff9e00"/>
+  <!-- score bar -->
+  <g fill="#ffd60a"><rect x="366" y="300" width="14" height="14"/><rect x="384" y="300" width="14" height="14"/><rect x="402" y="300" width="14" height="14"/></g>
   <!-- control panel -->
   <polygon points="300,600 724,600 760,700 264,700" fill="#4361ee"/>
   <circle cx="380" cy="650" r="30" fill="#22223b"/>
